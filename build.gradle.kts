@@ -4,6 +4,7 @@ import org.apache.commons.compress.archivers.zip.ZipFile
 import java.net.URL
 import java.nio.ByteBuffer
 import java.nio.channels.Channels
+import java.nio.file.Files
 
 
 plugins {
@@ -29,7 +30,7 @@ tasks.getByName<Test>("test") {
     useJUnitPlatform()
 }
 
-val openjml_path = layout.buildDirectory.dir("openjml").get()
+val openjml_path = layout.projectDirectory.dir("openjml")
 
 tasks.test {
     java {
@@ -53,9 +54,7 @@ tasks.register("downloadOpenJML", ::downloadOpenJML)
 fun downloadOpenJML(action: Task) {
     val jmlDownloadAddress = "https://github.com/OpenJML/OpenJML/releases/download/0.17.0-alpha-15/openjml-macos-11-0.17.0-alpha-15.zip"
     val downloadFile = layout.buildDirectory
-        .dir("tmp").get()
-        .dir("download")
-        .file("openjml.zip")
+        .file("tmp/download/openjml.zip").get()
 
     val unzipFile = openjml_path
 
@@ -114,5 +113,35 @@ fun downloadOpenJML(action: Task) {
             }
         }
         logger.lifecycle("✅ OpenJML unpacked, $unzipFile")
+    }
+
+    val originJavac = openjml_path.file("jdk/bin/origin-javac")
+
+    if (originJavac.asFile.exists()) {
+        logger.lifecycle("\uD83D\uDC4C javac has been replaced")
+    } else {
+        val oldJavac = openjml_path.file("jdk/bin/javac")
+        oldJavac.asFile.renameTo(originJavac.asFile)
+        Files.writeString(oldJavac.asFile.toPath(), """
+            SCRIPT_DIR=${'$'}( cd -- "${'$'}( dirname -- "${'$'}{BASH_SOURCE[0]}" )" &> /dev/null && pwd )
+            OPENJML_ROOT=${openjml_path} ${'$'}SCRIPT_DIR/origin-javac -jml --rac ${'$'}@
+        """.trimIndent())
+        oldJavac.asFile.setExecutable(true, true)
+        logger.lifecycle("✅ Javac is replaced, $unzipFile")
+    }
+
+    val originJava = openjml_path.file("jdk/bin/origin-java")
+
+    if (originJava.asFile.exists()) {
+        logger.lifecycle("\uD83D\uDC4C java has been replaced")
+    } else {
+        val oldJava = openjml_path.file("jdk/bin/java")
+        oldJava.asFile.renameTo(originJava.asFile)
+        Files.writeString(oldJava.asFile.toPath(), """
+            SCRIPT_DIR=${'$'}( cd -- "${'$'}( dirname -- "${'$'}{BASH_SOURCE[0]}" )" &> /dev/null && pwd )
+            OPENJML_ROOT=${openjml_path} ${'$'}SCRIPT_DIR/origin-java ${'$'}@
+        """.trimIndent())
+        oldJava.asFile.setExecutable(true, true)
+        logger.lifecycle("✅ Java is replaced, $unzipFile")
     }
 }
