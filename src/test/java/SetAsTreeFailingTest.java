@@ -1,10 +1,10 @@
 
 import edu.lsbf.SetAsTree;
-import org.jmlspecs.utils.JmlAssertionError;
-import org.junit.jupiter.api.AfterAll;
-import org.junit.jupiter.api.Assertions;
-import org.junit.jupiter.api.BeforeAll;
-import org.junit.jupiter.api.Test;
+import org.jmlspecs.runtime.JmlAssertionError;
+import org.junit.AfterClass;
+import org.junit.Assert;
+import org.junit.BeforeClass;
+import org.junit.Test;
 
 
 public class SetAsTreeFailingTest {
@@ -23,18 +23,18 @@ public class SetAsTreeFailingTest {
     } else {
       // test failure
       nb_fail++;
-      Assertions.fail("\n\t" + e.getMessage());
+      Assert.fail("\n\t" + e.getMessage());
     }
   }
 
 
-  @BeforeAll
+  @BeforeClass
   public static void setUpBeforeClass() {
     nb_inc = 0;
     nb_fail = 0;
   }
 
-  @AfterAll
+  @AfterClass
   public static void tearDownAfterClass() {
     System.out.println("\n inconclusive tests: " + nb_inc + " -- failures : " + nb_fail);
   }
