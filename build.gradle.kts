@@ -1,6 +1,7 @@
 import org.apache.commons.compress.archivers.zip.ZipArchiveEntry
 import org.apache.commons.compress.archivers.zip.ZipArchiveInputStream
 import org.apache.commons.compress.archivers.zip.ZipFile
+import org.gradle.internal.os.OperatingSystem;
 import java.net.URL
 import java.nio.ByteBuffer
 import java.nio.channels.Channels
@@ -54,7 +55,15 @@ tasks.withType<JavaCompile>().configureEach {
 tasks.register("downloadOpenJML", ::downloadOpenJML)
 
 fun downloadOpenJML(action: Task) {
-    val jmlDownloadAddress = "https://github.com/OpenJML/OpenJML/releases/download/0.17.0-alpha-15/openjml-macos-11-0.17.0-alpha-15.zip"
+    val currentOS = OperatingSystem.current()
+    val jmlDownloadAddress = if (currentOS.isMacOsX) {
+        "https://github.com/OpenJML/OpenJML/releases/download/0.17.0-alpha-15/openjml-macos-11-0.17.0-alpha-15.zip"
+    } else if (currentOS.isLinux) {
+        "https://github.com/OpenJML/OpenJML/releases/download/0.17.0-alpha-15/openjml-ubuntu-20.04-0.17.0-alpha-15.zip"
+    } else {
+        throw UnsupportedOperationException("Current OS is not supported by OpenJML")
+    }
+
     val downloadFile = layout.buildDirectory
         .file("tmp/download/openjml.zip").get()
 
