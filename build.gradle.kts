@@ -124,7 +124,7 @@ fun downloadOpenJML(action: Task) {
         oldJavac.asFile.renameTo(originJavac.asFile)
         Files.writeString(oldJavac.asFile.toPath(), """
             SCRIPT_DIR=${'$'}( cd -- "${'$'}( dirname -- "${'$'}{BASH_SOURCE[0]}" )" &> /dev/null && pwd )
-            OPENJML_ROOT=${openjml_path} ${'$'}SCRIPT_DIR/origin-javac -jml --rac ${'$'}@
+            OPENJML_ROOT="$openjml_path" ${'$'}SCRIPT_DIR/origin-javac -jml --rac ${'$'}@
         """.trimIndent())
         oldJavac.asFile.setExecutable(true, true)
         logger.lifecycle("✅ Javac is replaced, $unzipFile")
@@ -139,7 +139,7 @@ fun downloadOpenJML(action: Task) {
         oldJava.asFile.renameTo(originJava.asFile)
         Files.writeString(oldJava.asFile.toPath(), """
             SCRIPT_DIR=${'$'}( cd -- "${'$'}( dirname -- "${'$'}{BASH_SOURCE[0]}" )" &> /dev/null && pwd )
-            OPENJML_ROOT=${openjml_path} ${'$'}SCRIPT_DIR/origin-java ${'$'}@
+            OPENJML_ROOT="$openjml_path" ${'$'}SCRIPT_DIR/origin-java ${'$'}@
         """.trimIndent())
         oldJava.asFile.setExecutable(true, true)
         logger.lifecycle("✅ Java is replaced, $unzipFile")
