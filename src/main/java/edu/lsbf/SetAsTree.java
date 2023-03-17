@@ -84,23 +84,30 @@ public class SetAsTree {
               System.out.println("Value " + v + " not in the set.");
           } else {
               ltree.delete(v);
+              if (ltree.emptySet()) ltree = null;
           }
       } else if (v > val) {
           if (rtree == null) {
               System.out.println("Value " + v + " not in the set.");
           } else {
               rtree.delete(v);
+              if (rtree.emptySet()) rtree = null;
           }
       } else {
           if (ltree == null && rtree == null) {
               val = null;
           } else if (ltree == null) {
               val = rtree.getVal();
+              ltree = rtree.ltree;
+              rtree = rtree.rtree;
           } else if (rtree == null) {
               val = ltree.getVal();
+              rtree = ltree.rtree;
+              ltree = ltree.ltree;
           } else {
               val = ltree.max();
               ltree.delete(val);
+              if (ltree.emptySet()) ltree = null;
           }
       }
   }
