@@ -45,8 +45,10 @@ java {
 }
 
 tasks.withType<JavaCompile>().configureEach {
-    options.isFork = true
-    options.forkOptions.javaHome = File("$openjml_path/jdk")
+    if (name == "compileJava") {
+        options.isFork = true
+        options.forkOptions.javaHome = File("$openjml_path/jdk")
+    }
 }
 
 tasks.register("downloadOpenJML", ::downloadOpenJML)

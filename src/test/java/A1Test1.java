@@ -3485,11 +3485,11 @@ public class A1Test1 {
 
   @Test
   public void testSequence_346() {
-    SetAsTree s = new SetAsTree();
-    s.insert(1);
-    s.insert(5);
-    s.delete(1);
-    s.insert(1);
+      SetAsTree s = new SetAsTree();
+      s.insert(1);
+      s.insert(5);
+      s.delete(1);
+      s.insert(1);
 
 
   }
