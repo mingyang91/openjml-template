@@ -134,7 +134,7 @@ fun downloadOpenJML(action: Task) {
         val oldJavac = openjml_path.file("jdk/bin/javac")
         oldJavac.asFile.renameTo(originJavac.asFile)
         Files.writeString(oldJavac.asFile.toPath(), """
-            #!/bin/sh
+            #!/bin/bash
             SCRIPT_DIR=${'$'}( cd -- "${'$'}( dirname -- "${'$'}{BASH_SOURCE[0]}" )" &> /dev/null && pwd )
             OPENJML_ROOT="$openjml_path" ${'$'}SCRIPT_DIR/origin-javac -jml --rac ${'$'}@
         """.trimIndent())
@@ -150,7 +150,7 @@ fun downloadOpenJML(action: Task) {
         val oldJava = openjml_path.file("jdk/bin/java")
         oldJava.asFile.renameTo(originJava.asFile)
         Files.writeString(oldJava.asFile.toPath(), """
-            #!/bin/sh
+            #!/bin/bash
             SCRIPT_DIR=${'$'}( cd -- "${'$'}( dirname -- "${'$'}{BASH_SOURCE[0]}" )" &> /dev/null && pwd )
             OPENJML_ROOT="$openjml_path" ${'$'}SCRIPT_DIR/origin-java ${'$'}@
         """.trimIndent())
