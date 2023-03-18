@@ -1,7 +1,14 @@
 # TL;DR
+This guide has been validated on multiple platforms, including:
+* macOS, including M1 chip
+* Ubuntu 20 or higher
+* Windows Subsystem Linux(WSL)
+
+If you encounter any difficulties, please feel free to contact me through the LSBF team or by creating a GitHub issue.
+
 ## Prerequisite
 * Ensure you have a JDK installed (version 17 or higher is recommended).
-* Make sure you have a good network connection to access resources stored in Maven and Github.
+* Make sure you have a good network connection to access resources stored in Maven and GitHub.
   * If you need to set proxy options, follow this [Gradlew behind a proxy](https://stackoverflow.com/questions/8938994/gradlew-behind-a-proxy)
 ## Setup
 Run `./gradlew downloadOpenJML`. You will see one of the following outputs:
