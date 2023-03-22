@@ -53,6 +53,10 @@ tasks.withType<JavaCompile>().configureEach {
 }
 
 tasks.register("downloadOpenJML", ::downloadOpenJML)
+tasks.register("esc", JavaCompile::class.java) {
+
+}
+tasks.register("rac", JavaCompile::class.java) {}
 
 fun downloadOpenJML(action: Task) {
     val currentOS = OperatingSystem.current()

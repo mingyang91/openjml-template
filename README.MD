@@ -44,8 +44,8 @@ Run `./gradlew test`. You will see:
 
 > Task :test
 
-SetAsTreeFailingTest > testSequence_1 FAILED
-    java.lang.AssertionError at SetAsTreeFailingTest.java:26
+SetAsTree.SetAsTreeFailingTest > testSequence_1 FAILED
+    java.lang.AssertionError at SetAsTree.SetAsTreeFailingTest.java:26
 
 1398 tests completed, 1 failed
 
