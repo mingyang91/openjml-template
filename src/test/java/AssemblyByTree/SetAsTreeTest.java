@@ -1,6 +1,6 @@
-package SetAsTree;
+package AssemblyByTree;
 
-import edu.lsbf.SetAsTree.SetAsTree;
+import edu.lsbf.AssemblyByTree.SetAsTree;
 import org.jmlspecs.runtime.JmlAssertionError;
 import org.junit.AfterClass;
 import org.junit.Assert;

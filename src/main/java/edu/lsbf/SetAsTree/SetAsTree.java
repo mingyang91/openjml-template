@@ -57,59 +57,65 @@ public class SetAsTree {
 
   // Application specific methods
   public void insert(int v) {
-      if (val == null) {
-          val = v;
-      } else if (v < val) {
-          if (ltree == null) {
-              ltree = new SetAsTree(v);
-          } else {
-              ltree.insert(v);
-          }
-      } else if (v > val) {
-          if (rtree == null) {
-              rtree = new SetAsTree(v);
-          } else {
-              rtree.insert(v);
-          }
+    if (val == null) {
+      val = v;
+    } else if (v < val) {
+      if (ltree == null) {
+        ltree = new SetAsTree(v);
       } else {
-          System.out.println("Value " + v + " already in the set.");
+        ltree.insert(v);
       }
+    } else if (v > val) {
+      if (rtree == null) {
+        rtree = new SetAsTree(v);
+      } else {
+        rtree.insert(v);
+      }
+    } else {
+      System.out.println("Value " + v + " already in the set.");
+    }
   }
 
   public void delete(int v) {
-      if (val == null) {
-          System.out.println("Value " + v + " not in the set.");
-      } else if (v < val) {
-          if (ltree == null) {
-              System.out.println("Value " + v + " not in the set.");
-          } else {
-              ltree.delete(v);
-              if (ltree.emptySet()) ltree = null;
-          }
-      } else if (v > val) {
-          if (rtree == null) {
-              System.out.println("Value " + v + " not in the set.");
-          } else {
-              rtree.delete(v);
-              if (rtree.emptySet()) rtree = null;
-          }
+    if (val == null) {
+      System.out.println("Value " + v + " not in the set.");
+    } else if (v < val) {
+      if (ltree == null) {
+        System.out.println("Value " + v + " not in the set.");
       } else {
-          if (ltree == null && rtree == null) {
-              val = null;
-          } else if (ltree == null) {
-              val = rtree.getVal();
-              ltree = rtree.ltree;
-              rtree = rtree.rtree;
-          } else if (rtree == null) {
-              val = ltree.getVal();
-              rtree = ltree.rtree;
-              ltree = ltree.ltree;
-          } else {
-              val = ltree.max();
-              ltree.delete(val);
-              if (ltree.emptySet()) ltree = null;
-          }
+        ltree.delete(v);
+        if (ltree.emptySet()) {
+          ltree = null;
+        }
       }
+    } else if (v > val) {
+      if (rtree == null) {
+        System.out.println("Value " + v + " not in the set.");
+      } else {
+        rtree.delete(v);
+        if (rtree.emptySet()) {
+          rtree = null;
+        }
+      }
+    } else {
+      if (ltree == null && rtree == null) {
+        val = null;
+      } else if (ltree == null) {
+        val = rtree.getVal();
+        ltree = rtree.ltree;
+        rtree = rtree.rtree;
+      } else if (rtree == null) {
+        val = ltree.getVal();
+        rtree = ltree.rtree;
+        ltree = ltree.ltree;
+      } else {
+        val = ltree.max();
+        ltree.delete(val);
+        if (ltree.emptySet()) {
+          ltree = null;
+        }
+      }
+    }
   }
 
   // Pure functions used in the specification
@@ -120,20 +126,20 @@ public class SetAsTree {
 
   //@ pure
   public int min() {
-      if (ltree != null && ltree.getVal() < val) {
-          return ltree.min();
-      } else {
-          return val;
-      }
+    if (ltree != null && ltree.getVal() < val) {
+      return ltree.min();
+    } else {
+      return val;
+    }
   }
 
   //@ pure
   public int max() {
-      if (rtree != null && rtree.getVal() > val) {
-          return rtree.max();
-      } else {
-          return val;
-      }
+    if (rtree != null && rtree.getVal() > val) {
+      return rtree.max();
+    } else {
+      return val;
+    }
   }
 
   // Non side-effecting methods
@@ -142,15 +148,12 @@ public class SetAsTree {
     if (ltree != null) {
       s = s + ltree;
     }
-    ;
     s = s + " " + val + " ";
     if (rtree != null) {
       s = s + rtree;
     }
-    ;
     return s;
   }
 
-  public void skip() {
-  } // useful to test the invariant.
+  public void skip() {} // useful to test the invariant.
 }

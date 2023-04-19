@@ -1,13 +1,16 @@
-package SetAsTree;
+package AssemblyByTree;
 
-import edu.lsbf.SetAsTree.SetAsTree;
+import static org.junit.Assert.assertThrows;
+
+import edu.lsbf.AssemblyByTree.SetAsTree;
 import org.jmlspecs.runtime.JmlAssertionError;
 import org.junit.AfterClass;
 import org.junit.Assert;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
-public class SetAsTreeTest {
+
+public class SetAsTreeFailingTest {
 
   static int nb_inc = 0;
   static int nb_fail = 0;
@@ -38,17 +41,24 @@ public class SetAsTreeTest {
   }
 
   @Test
-  public void testSequence_0() {
-    try {
-      SetAsTree s = new SetAsTree(5);
-      s.insert(10);
-      s.insert(1);
-      s.delete(5);
-    } catch (Exception e) {
-      System.err.println(e);
-    } catch (JmlAssertionError e) {
-      handleJMLAssertionError(e);
-    }
+  public void testSequence_1() {
+    assertThrows(JmlAssertionError.class, () -> {
+      SetAsTree s5 = new SetAsTree(5);
+      SetAsTree s1 = new SetAsTree(1);
+      s5.setRtree(s1);
+//      s5.skip();
+    });
+  }
+
+
+  @Test
+  public void testSequence_2() {
+    assertThrows(JmlAssertionError.class, () -> {
+      SetAsTree s5 = new SetAsTree(5);
+      SetAsTree s0 = new SetAsTree(0);
+      s5.setLtree(s0);
+      s5.setVal(null);
+    });
   }
 
 }

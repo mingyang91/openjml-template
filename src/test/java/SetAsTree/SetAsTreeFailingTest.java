@@ -1,5 +1,7 @@
 package SetAsTree;
 
+import static org.junit.Assert.assertThrows;
+
 import edu.lsbf.SetAsTree.SetAsTree;
 import org.jmlspecs.runtime.JmlAssertionError;
 import org.junit.AfterClass;
@@ -42,27 +44,22 @@ public class SetAsTreeFailingTest {
 
   @Test
   public void testSequence_1() {
-    try {
+    assertThrows(JmlAssertionError.class, () -> {
       SetAsTree s5 = new SetAsTree(5);
       SetAsTree s1 = new SetAsTree(1);
       s5.setRtree(s1);
-    } catch (JmlAssertionError e) {
-      handleJMLAssertionError(e);
-    }
+    });
   }
 
 
   @Test
   public void testSequence_2() {
-    try {
+    assertThrows(JmlAssertionError.class, () -> {
       SetAsTree s5 = new SetAsTree(5);
       SetAsTree s0 = new SetAsTree(0);
       s5.setLtree(s0);
-      s0.setVal(null);
-      //s5.skip();
-    } catch (JmlAssertionError e) {
-      handleJMLAssertionError(e);
-    }
+      s5.setVal(null);
+    });
   }
 
 }
