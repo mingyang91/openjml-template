@@ -1,4 +1,4 @@
-package edu.lsbf.SetAsTree;
+package edu.lsbf.lab3;
 
 public class MainSetAsTree {
 

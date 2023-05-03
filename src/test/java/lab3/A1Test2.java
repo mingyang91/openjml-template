@@ -1,6 +1,6 @@
-package AssemblyByTree;
+package lab3;
 
-import edu.lsbf.AssemblyByTree.SetAsTree;
+import edu.lsbf.lab3.SetAsTree;
 import org.junit.Test;
 
 public class A1Test2 {

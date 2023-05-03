@@ -1,6 +1,6 @@
-package prime;
+package lab4;
 
-import edu.lsbf.prime.PrimeArray;
+import edu.lsbf.lab4.PrimeArray;
 import org.jmlspecs.runtime.JmlAssertionError;
 import org.junit.BeforeClass;
 import org.junit.Test;

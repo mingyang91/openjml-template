@@ -1,4 +1,4 @@
-package edu.lsbf.SetAsTree;
+package edu.lsbf.lab2;
 
 /*@ nullable_by_default @*/
 public class SetAsTree {

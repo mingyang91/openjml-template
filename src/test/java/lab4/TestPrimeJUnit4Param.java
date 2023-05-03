@@ -1,7 +1,7 @@
-package prime;
+package lab4;
 
-import edu.lsbf.prime.Prime;
-import java.util.Arrays;
+import edu.lsbf.lab4.Prime;
+
 import java.util.Collection;
 import java.util.Random;
 import java.util.stream.IntStream;

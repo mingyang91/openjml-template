@@ -1,6 +1,6 @@
-package SetAsTree;
+package lab2;
 
-import edu.lsbf.SetAsTree.SetAsTree;
+import edu.lsbf.lab2.SetAsTree;
 import org.junit.Test;
 
 public class A1Test3 {

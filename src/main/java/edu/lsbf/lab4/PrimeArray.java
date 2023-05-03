@@ -1,4 +1,4 @@
-package edu.lsbf.prime;
+package edu.lsbf.lab4;
 
 public class PrimeArray {
 

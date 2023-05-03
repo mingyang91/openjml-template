@@ -1,103 +1,13 @@
-package SetAsTree;
+package lab3;
 
-import edu.lsbf.SetAsTree.SetAsTree;
+import edu.lsbf.lab3.SetAsTree;
 import org.junit.Test;
 
-public class A1Test2 {
+public class A1Test1 {
 
   @Test
-  public void testSequence_938() {
+  public void testSequence_1() {
     SetAsTree s = new SetAsTree();
-    s.insert(10);
-    s.insert(50);
-    s.delete(5);
-    s.insert(10);
-
-
-  }
-
-  @Test
-  public void testSequence_939() {
-    SetAsTree s = new SetAsTree();
-    s.insert(10);
-    s.insert(50);
-    s.delete(5);
-    s.insert(20);
-
-
-  }
-
-  @Test
-  public void testSequence_940() {
-    SetAsTree s = new SetAsTree();
-    s.insert(10);
-    s.insert(50);
-    s.delete(5);
-    s.insert(50);
-
-
-  }
-
-  @Test
-  public void testSequence_941() {
-    SetAsTree s = new SetAsTree();
-    s.insert(10);
-    s.insert(50);
-    s.delete(9);
-    s.insert(1);
-
-
-  }
-
-  @Test
-  public void testSequence_942() {
-    SetAsTree s = new SetAsTree();
-    s.insert(10);
-    s.insert(50);
-    s.delete(9);
-    s.insert(5);
-
-
-  }
-
-  @Test
-  public void testSequence_943() {
-    SetAsTree s = new SetAsTree();
-    s.insert(10);
-    s.insert(50);
-    s.delete(9);
-    s.insert(10);
-
-
-  }
-
-  @Test
-  public void testSequence_944() {
-    SetAsTree s = new SetAsTree();
-    s.insert(10);
-    s.insert(50);
-    s.delete(9);
-    s.insert(20);
-
-
-  }
-
-  @Test
-  public void testSequence_945() {
-    SetAsTree s = new SetAsTree();
-    s.insert(10);
-    s.insert(50);
-    s.delete(9);
-    s.insert(50);
-
-
-  }
-
-  @Test
-  public void testSequence_946() {
-    SetAsTree s = new SetAsTree();
-    s.insert(20);
-    s.insert(1);
     s.insert(1);
     s.insert(1);
 
@@ -105,10 +15,8 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_947() {
+  public void testSequence_2() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
-    s.insert(1);
     s.insert(1);
     s.insert(5);
 
@@ -116,9 +24,415 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_948() {
+  public void testSequence_3() {
     SetAsTree s = new SetAsTree();
+    s.insert(1);
+    s.insert(10);
+
+
+  }
+
+  @Test
+  public void testSequence_4() {
+    SetAsTree s = new SetAsTree();
+    s.insert(1);
     s.insert(20);
+
+
+  }
+
+  @Test
+  public void testSequence_5() {
+    SetAsTree s = new SetAsTree();
+    s.insert(1);
+    s.insert(50);
+
+
+  }
+
+  @Test
+  public void testSequence_6() {
+    SetAsTree s = new SetAsTree();
+    s.insert(2);
+    s.insert(1);
+
+
+  }
+
+  @Test
+  public void testSequence_7() {
+    SetAsTree s = new SetAsTree();
+    s.insert(2);
+    s.insert(5);
+
+
+  }
+
+  @Test
+  public void testSequence_8() {
+    SetAsTree s = new SetAsTree();
+    s.insert(2);
+    s.insert(10);
+
+
+  }
+
+  @Test
+  public void testSequence_9() {
+    SetAsTree s = new SetAsTree();
+    s.insert(2);
+    s.insert(20);
+
+
+  }
+
+  @Test
+  public void testSequence_10() {
+    SetAsTree s = new SetAsTree();
+    s.insert(2);
+    s.insert(50);
+
+
+  }
+
+  @Test
+  public void testSequence_11() {
+    SetAsTree s = new SetAsTree();
+    s.insert(4);
+    s.insert(1);
+
+
+  }
+
+  @Test
+  public void testSequence_12() {
+    SetAsTree s = new SetAsTree();
+    s.insert(4);
+    s.insert(5);
+
+
+  }
+
+  @Test
+  public void testSequence_13() {
+    SetAsTree s = new SetAsTree();
+    s.insert(4);
+    s.insert(10);
+
+
+  }
+
+  @Test
+  public void testSequence_14() {
+    SetAsTree s = new SetAsTree();
+    s.insert(4);
+    s.insert(20);
+
+
+  }
+
+  @Test
+  public void testSequence_15() {
+    SetAsTree s = new SetAsTree();
+    s.insert(4);
+    s.insert(50);
+
+
+  }
+
+  @Test
+  public void testSequence_16() {
+    SetAsTree s = new SetAsTree();
+    s.insert(6);
+    s.insert(1);
+
+
+  }
+
+  @Test
+  public void testSequence_17() {
+    SetAsTree s = new SetAsTree();
+    s.insert(6);
+    s.insert(5);
+
+
+  }
+
+  @Test
+  public void testSequence_18() {
+    SetAsTree s = new SetAsTree();
+    s.insert(6);
+    s.insert(10);
+
+
+  }
+
+  @Test
+  public void testSequence_19() {
+    SetAsTree s = new SetAsTree();
+    s.insert(6);
+    s.insert(20);
+
+
+  }
+
+  @Test
+  public void testSequence_20() {
+    SetAsTree s = new SetAsTree();
+    s.insert(6);
+    s.insert(50);
+
+
+  }
+
+  @Test
+  public void testSequence_21() {
+    SetAsTree s = new SetAsTree();
+    s.insert(9);
+    s.insert(1);
+
+
+  }
+
+  @Test
+  public void testSequence_22() {
+    SetAsTree s = new SetAsTree();
+    s.insert(9);
+    s.insert(5);
+
+
+  }
+
+  @Test
+  public void testSequence_23() {
+    SetAsTree s = new SetAsTree();
+    s.insert(9);
+    s.insert(10);
+
+
+  }
+
+  @Test
+  public void testSequence_24() {
+    SetAsTree s = new SetAsTree();
+    s.insert(9);
+    s.insert(20);
+
+
+  }
+
+  @Test
+  public void testSequence_25() {
+    SetAsTree s = new SetAsTree();
+    s.insert(9);
+    s.insert(50);
+
+
+  }
+
+  @Test
+  public void testSequence_26() {
+    SetAsTree s = new SetAsTree();
+    s.insert(10);
+    s.insert(1);
+
+
+  }
+
+  @Test
+  public void testSequence_27() {
+    SetAsTree s = new SetAsTree();
+    s.insert(10);
+    s.insert(5);
+
+
+  }
+
+  @Test
+  public void testSequence_28() {
+    SetAsTree s = new SetAsTree();
+    s.insert(10);
+    s.insert(10);
+
+
+  }
+
+  @Test
+  public void testSequence_29() {
+    SetAsTree s = new SetAsTree();
+    s.insert(10);
+    s.insert(20);
+
+
+  }
+
+  @Test
+  public void testSequence_30() {
+    SetAsTree s = new SetAsTree();
+    s.insert(10);
+    s.insert(50);
+
+
+  }
+
+  @Test
+  public void testSequence_31() {
+    SetAsTree s = new SetAsTree();
+    s.delete(1);
+    s.insert(1);
+
+
+  }
+
+  @Test
+  public void testSequence_32() {
+    SetAsTree s = new SetAsTree();
+    s.delete(1);
+    s.insert(5);
+
+
+  }
+
+  @Test
+  public void testSequence_33() {
+    SetAsTree s = new SetAsTree();
+    s.delete(1);
+    s.insert(10);
+
+
+  }
+
+  @Test
+  public void testSequence_34() {
+    SetAsTree s = new SetAsTree();
+    s.delete(1);
+    s.insert(20);
+
+
+  }
+
+  @Test
+  public void testSequence_35() {
+    SetAsTree s = new SetAsTree();
+    s.delete(1);
+    s.insert(50);
+
+
+  }
+
+  @Test
+  public void testSequence_36() {
+    SetAsTree s = new SetAsTree();
+    s.delete(5);
+    s.insert(1);
+
+
+  }
+
+  @Test
+  public void testSequence_37() {
+    SetAsTree s = new SetAsTree();
+    s.delete(5);
+    s.insert(5);
+
+
+  }
+
+  @Test
+  public void testSequence_38() {
+    SetAsTree s = new SetAsTree();
+    s.delete(5);
+    s.insert(10);
+
+
+  }
+
+  @Test
+  public void testSequence_39() {
+    SetAsTree s = new SetAsTree();
+    s.delete(5);
+    s.insert(20);
+
+
+  }
+
+  @Test
+  public void testSequence_40() {
+    SetAsTree s = new SetAsTree();
+    s.delete(5);
+    s.insert(50);
+
+
+  }
+
+  @Test
+  public void testSequence_41() {
+    SetAsTree s = new SetAsTree();
+    s.delete(9);
+    s.insert(1);
+
+
+  }
+
+  @Test
+  public void testSequence_42() {
+    SetAsTree s = new SetAsTree();
+    s.delete(9);
+    s.insert(5);
+
+
+  }
+
+  @Test
+  public void testSequence_43() {
+    SetAsTree s = new SetAsTree();
+    s.delete(9);
+    s.insert(10);
+
+
+  }
+
+  @Test
+  public void testSequence_44() {
+    SetAsTree s = new SetAsTree();
+    s.delete(9);
+    s.insert(20);
+
+
+  }
+
+  @Test
+  public void testSequence_45() {
+    SetAsTree s = new SetAsTree();
+    s.delete(9);
+    s.insert(50);
+
+
+  }
+
+  @Test
+  public void testSequence_46() {
+    SetAsTree s = new SetAsTree();
+    s.insert(1);
+    s.insert(1);
+    s.insert(1);
+
+
+  }
+
+  @Test
+  public void testSequence_47() {
+    SetAsTree s = new SetAsTree();
+    s.insert(1);
+    s.insert(1);
+    s.insert(5);
+
+
+  }
+
+  @Test
+  public void testSequence_48() {
+    SetAsTree s = new SetAsTree();
     s.insert(1);
     s.insert(1);
     s.insert(10);
@@ -127,9 +441,8 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_949() {
+  public void testSequence_49() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(1);
     s.insert(1);
     s.insert(20);
@@ -138,9 +451,8 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_950() {
+  public void testSequence_50() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(1);
     s.insert(1);
     s.insert(50);
@@ -149,9 +461,8 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_951() {
+  public void testSequence_51() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(1);
     s.insert(2);
     s.insert(1);
@@ -160,20 +471,17 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_952() {
+  public void testSequence_52() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(1);
     s.insert(2);
     s.insert(5);
 
-
   }
 
   @Test
-  public void testSequence_953() {
+  public void testSequence_53() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(1);
     s.insert(2);
     s.insert(10);
@@ -182,9 +490,8 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_954() {
+  public void testSequence_54() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(1);
     s.insert(2);
     s.insert(20);
@@ -193,9 +500,8 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_955() {
+  public void testSequence_55() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(1);
     s.insert(2);
     s.insert(50);
@@ -204,9 +510,8 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_956() {
+  public void testSequence_56() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(1);
     s.insert(4);
     s.insert(1);
@@ -215,9 +520,8 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_957() {
+  public void testSequence_57() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(1);
     s.insert(4);
     s.insert(5);
@@ -226,9 +530,8 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_958() {
+  public void testSequence_58() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(1);
     s.insert(4);
     s.insert(10);
@@ -237,9 +540,8 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_959() {
+  public void testSequence_59() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(1);
     s.insert(4);
     s.insert(20);
@@ -248,9 +550,8 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_960() {
+  public void testSequence_60() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(1);
     s.insert(4);
     s.insert(50);
@@ -259,9 +560,8 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_961() {
+  public void testSequence_61() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(1);
     s.insert(6);
     s.insert(1);
@@ -270,9 +570,8 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_962() {
+  public void testSequence_62() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(1);
     s.insert(6);
     s.insert(5);
@@ -281,9 +580,8 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_963() {
+  public void testSequence_63() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(1);
     s.insert(6);
     s.insert(10);
@@ -292,9 +590,8 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_964() {
+  public void testSequence_64() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(1);
     s.insert(6);
     s.insert(20);
@@ -303,9 +600,8 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_965() {
+  public void testSequence_65() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(1);
     s.insert(6);
     s.insert(50);
@@ -314,9 +610,8 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_966() {
+  public void testSequence_66() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(1);
     s.insert(9);
     s.insert(1);
@@ -325,9 +620,8 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_967() {
+  public void testSequence_67() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(1);
     s.insert(9);
     s.insert(5);
@@ -336,9 +630,8 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_968() {
+  public void testSequence_68() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(1);
     s.insert(9);
     s.insert(10);
@@ -347,9 +640,8 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_969() {
+  public void testSequence_69() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(1);
     s.insert(9);
     s.insert(20);
@@ -358,9 +650,8 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_970() {
+  public void testSequence_70() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(1);
     s.insert(9);
     s.insert(50);
@@ -369,9 +660,8 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_971() {
+  public void testSequence_71() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(1);
     s.insert(10);
     s.insert(1);
@@ -380,9 +670,8 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_972() {
+  public void testSequence_72() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(1);
     s.insert(10);
     s.insert(5);
@@ -391,9 +680,8 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_973() {
+  public void testSequence_73() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(1);
     s.insert(10);
     s.insert(10);
@@ -402,9 +690,8 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_974() {
+  public void testSequence_74() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(1);
     s.insert(10);
     s.insert(20);
@@ -413,9 +700,8 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_975() {
+  public void testSequence_75() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(1);
     s.insert(10);
     s.insert(50);
@@ -424,9 +710,8 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_976() {
+  public void testSequence_76() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(1);
     s.delete(1);
     s.insert(1);
@@ -435,9 +720,8 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_977() {
+  public void testSequence_77() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(1);
     s.delete(1);
     s.insert(5);
@@ -446,9 +730,8 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_978() {
+  public void testSequence_78() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(1);
     s.delete(1);
     s.insert(10);
@@ -457,9 +740,8 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_979() {
+  public void testSequence_79() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(1);
     s.delete(1);
     s.insert(20);
@@ -468,9 +750,8 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_980() {
+  public void testSequence_80() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(1);
     s.delete(1);
     s.insert(50);
@@ -479,9 +760,8 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_981() {
+  public void testSequence_81() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(1);
     s.delete(5);
     s.insert(1);
@@ -490,9 +770,8 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_982() {
+  public void testSequence_82() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(1);
     s.delete(5);
     s.insert(5);
@@ -501,9 +780,8 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_983() {
+  public void testSequence_83() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(1);
     s.delete(5);
     s.insert(10);
@@ -512,9 +790,8 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_984() {
+  public void testSequence_84() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(1);
     s.delete(5);
     s.insert(20);
@@ -523,9 +800,8 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_985() {
+  public void testSequence_85() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(1);
     s.delete(5);
     s.insert(50);
@@ -534,9 +810,8 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_986() {
+  public void testSequence_86() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(1);
     s.delete(9);
     s.insert(1);
@@ -545,9 +820,8 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_987() {
+  public void testSequence_87() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(1);
     s.delete(9);
     s.insert(5);
@@ -556,9 +830,8 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_988() {
+  public void testSequence_88() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(1);
     s.delete(9);
     s.insert(10);
@@ -567,9 +840,8 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_989() {
+  public void testSequence_89() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(1);
     s.delete(9);
     s.insert(20);
@@ -578,9 +850,8 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_990() {
+  public void testSequence_90() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(1);
     s.delete(9);
     s.insert(50);
@@ -589,9 +860,8 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_991() {
+  public void testSequence_91() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(5);
     s.insert(1);
     s.insert(1);
@@ -600,9 +870,8 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_992() {
+  public void testSequence_92() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(5);
     s.insert(1);
     s.insert(5);
@@ -611,9 +880,8 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_993() {
+  public void testSequence_93() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(5);
     s.insert(1);
     s.insert(10);
@@ -622,9 +890,8 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_994() {
+  public void testSequence_94() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(5);
     s.insert(1);
     s.insert(20);
@@ -633,9 +900,8 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_995() {
+  public void testSequence_95() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(5);
     s.insert(1);
     s.insert(50);
@@ -644,9 +910,8 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_996() {
+  public void testSequence_96() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(5);
     s.insert(2);
     s.insert(1);
@@ -655,9 +920,8 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_997() {
+  public void testSequence_97() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(5);
     s.insert(2);
     s.insert(5);
@@ -666,9 +930,8 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_998() {
+  public void testSequence_98() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(5);
     s.insert(2);
     s.insert(10);
@@ -677,9 +940,8 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_999() {
+  public void testSequence_99() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(5);
     s.insert(2);
     s.insert(20);
@@ -688,9 +950,8 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1000() {
+  public void testSequence_100() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(5);
     s.insert(2);
     s.insert(50);
@@ -699,20 +960,17 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1001() {
+  public void testSequence_101() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(5);
     s.insert(4);
     s.insert(1);
 
-
   }
 
   @Test
-  public void testSequence_1002() {
+  public void testSequence_102() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(5);
     s.insert(4);
     s.insert(5);
@@ -721,9 +979,8 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1003() {
+  public void testSequence_103() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(5);
     s.insert(4);
     s.insert(10);
@@ -732,9 +989,8 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1004() {
+  public void testSequence_104() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(5);
     s.insert(4);
     s.insert(20);
@@ -743,9 +999,8 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1005() {
+  public void testSequence_105() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(5);
     s.insert(4);
     s.insert(50);
@@ -754,9 +1009,8 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1006() {
+  public void testSequence_106() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(5);
     s.insert(6);
     s.insert(1);
@@ -765,9 +1019,8 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1007() {
+  public void testSequence_107() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(5);
     s.insert(6);
     s.insert(5);
@@ -776,9 +1029,8 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1008() {
+  public void testSequence_108() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(5);
     s.insert(6);
     s.insert(10);
@@ -787,9 +1039,8 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1009() {
+  public void testSequence_109() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(5);
     s.insert(6);
     s.insert(20);
@@ -798,9 +1049,8 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1010() {
+  public void testSequence_110() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(5);
     s.insert(6);
     s.insert(50);
@@ -809,9 +1059,8 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1011() {
+  public void testSequence_111() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(5);
     s.insert(9);
     s.insert(1);
@@ -820,9 +1069,8 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1012() {
+  public void testSequence_112() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(5);
     s.insert(9);
     s.insert(5);
@@ -831,9 +1079,8 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1013() {
+  public void testSequence_113() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(5);
     s.insert(9);
     s.insert(10);
@@ -842,9 +1089,8 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1014() {
+  public void testSequence_114() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(5);
     s.insert(9);
     s.insert(20);
@@ -853,9 +1099,8 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1015() {
+  public void testSequence_115() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(5);
     s.insert(9);
     s.insert(50);
@@ -864,9 +1109,8 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1016() {
+  public void testSequence_116() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(5);
     s.insert(10);
     s.insert(1);
@@ -875,9 +1119,8 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1017() {
+  public void testSequence_117() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(5);
     s.insert(10);
     s.insert(5);
@@ -886,9 +1129,8 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1018() {
+  public void testSequence_118() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(5);
     s.insert(10);
     s.insert(10);
@@ -897,9 +1139,8 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1019() {
+  public void testSequence_119() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(5);
     s.insert(10);
     s.insert(20);
@@ -908,9 +1149,8 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1020() {
+  public void testSequence_120() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(5);
     s.insert(10);
     s.insert(50);
@@ -919,9 +1159,8 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1021() {
+  public void testSequence_121() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(5);
     s.delete(1);
     s.insert(1);
@@ -930,9 +1169,8 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1022() {
+  public void testSequence_122() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(5);
     s.delete(1);
     s.insert(5);
@@ -941,9 +1179,8 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1023() {
+  public void testSequence_123() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(5);
     s.delete(1);
     s.insert(10);
@@ -952,9 +1189,8 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1024() {
+  public void testSequence_124() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(5);
     s.delete(1);
     s.insert(20);
@@ -963,9 +1199,8 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1025() {
+  public void testSequence_125() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(5);
     s.delete(1);
     s.insert(50);
@@ -974,9 +1209,8 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1026() {
+  public void testSequence_126() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(5);
     s.delete(5);
     s.insert(1);
@@ -985,9 +1219,8 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1027() {
+  public void testSequence_127() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(5);
     s.delete(5);
     s.insert(5);
@@ -996,9 +1229,8 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1028() {
+  public void testSequence_128() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(5);
     s.delete(5);
     s.insert(10);
@@ -1007,9 +1239,8 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1029() {
+  public void testSequence_129() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(5);
     s.delete(5);
     s.insert(20);
@@ -1018,9 +1249,8 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1030() {
+  public void testSequence_130() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(5);
     s.delete(5);
     s.insert(50);
@@ -1029,9 +1259,8 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1031() {
+  public void testSequence_131() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(5);
     s.delete(9);
     s.insert(1);
@@ -1040,9 +1269,8 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1032() {
+  public void testSequence_132() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(5);
     s.delete(9);
     s.insert(5);
@@ -1051,9 +1279,8 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1033() {
+  public void testSequence_133() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(5);
     s.delete(9);
     s.insert(10);
@@ -1062,9 +1289,8 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1034() {
+  public void testSequence_134() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(5);
     s.delete(9);
     s.insert(20);
@@ -1073,9 +1299,8 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1035() {
+  public void testSequence_135() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(5);
     s.delete(9);
     s.insert(50);
@@ -1084,9 +1309,8 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1036() {
+  public void testSequence_136() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(10);
     s.insert(1);
     s.insert(1);
@@ -1095,9 +1319,8 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1037() {
+  public void testSequence_137() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(10);
     s.insert(1);
     s.insert(5);
@@ -1106,9 +1329,8 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1038() {
+  public void testSequence_138() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(10);
     s.insert(1);
     s.insert(10);
@@ -1117,9 +1339,8 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1039() {
+  public void testSequence_139() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(10);
     s.insert(1);
     s.insert(20);
@@ -1128,9 +1349,8 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1040() {
+  public void testSequence_140() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(10);
     s.insert(1);
     s.insert(50);
@@ -1139,9 +1359,8 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1041() {
+  public void testSequence_141() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(10);
     s.insert(2);
     s.insert(1);
@@ -1150,9 +1369,8 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1042() {
+  public void testSequence_142() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(10);
     s.insert(2);
     s.insert(5);
@@ -1161,9 +1379,8 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1043() {
+  public void testSequence_143() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(10);
     s.insert(2);
     s.insert(10);
@@ -1172,9 +1389,8 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1044() {
+  public void testSequence_144() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(10);
     s.insert(2);
     s.insert(20);
@@ -1183,9 +1399,8 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1045() {
+  public void testSequence_145() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(10);
     s.insert(2);
     s.insert(50);
@@ -1194,9 +1409,8 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1046() {
+  public void testSequence_146() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(10);
     s.insert(4);
     s.insert(1);
@@ -1205,9 +1419,8 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1047() {
+  public void testSequence_147() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(10);
     s.insert(4);
     s.insert(5);
@@ -1216,9 +1429,8 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1048() {
+  public void testSequence_148() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(10);
     s.insert(4);
     s.insert(10);
@@ -1227,9 +1439,8 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1049() {
+  public void testSequence_149() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(10);
     s.insert(4);
     s.insert(20);
@@ -1238,9 +1449,8 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1050() {
+  public void testSequence_150() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(10);
     s.insert(4);
     s.insert(50);
@@ -1249,9 +1459,8 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1051() {
+  public void testSequence_151() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(10);
     s.insert(6);
     s.insert(1);
@@ -1260,9 +1469,8 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1052() {
+  public void testSequence_152() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(10);
     s.insert(6);
     s.insert(5);
@@ -1271,9 +1479,8 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1053() {
+  public void testSequence_153() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(10);
     s.insert(6);
     s.insert(10);
@@ -1282,9 +1489,8 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1054() {
+  public void testSequence_154() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(10);
     s.insert(6);
     s.insert(20);
@@ -1293,9 +1499,8 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1055() {
+  public void testSequence_155() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(10);
     s.insert(6);
     s.insert(50);
@@ -1304,9 +1509,8 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1056() {
+  public void testSequence_156() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(10);
     s.insert(9);
     s.insert(1);
@@ -1315,9 +1519,8 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1057() {
+  public void testSequence_157() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(10);
     s.insert(9);
     s.insert(5);
@@ -1326,9 +1529,8 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1058() {
+  public void testSequence_158() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(10);
     s.insert(9);
     s.insert(10);
@@ -1337,9 +1539,8 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1059() {
+  public void testSequence_159() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(10);
     s.insert(9);
     s.insert(20);
@@ -1348,9 +1549,8 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1060() {
+  public void testSequence_160() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(10);
     s.insert(9);
     s.insert(50);
@@ -1359,9 +1559,8 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1061() {
+  public void testSequence_161() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(10);
     s.insert(10);
     s.insert(1);
@@ -1370,9 +1569,8 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1062() {
+  public void testSequence_162() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(10);
     s.insert(10);
     s.insert(5);
@@ -1381,9 +1579,8 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1063() {
+  public void testSequence_163() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(10);
     s.insert(10);
     s.insert(10);
@@ -1392,9 +1589,8 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1064() {
+  public void testSequence_164() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(10);
     s.insert(10);
     s.insert(20);
@@ -1403,9 +1599,8 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1065() {
+  public void testSequence_165() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(10);
     s.insert(10);
     s.insert(50);
@@ -1414,9 +1609,8 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1066() {
+  public void testSequence_166() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(10);
     s.delete(1);
     s.insert(1);
@@ -1425,9 +1619,8 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1067() {
+  public void testSequence_167() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(10);
     s.delete(1);
     s.insert(5);
@@ -1436,9 +1629,8 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1068() {
+  public void testSequence_168() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(10);
     s.delete(1);
     s.insert(10);
@@ -1447,9 +1639,8 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1069() {
+  public void testSequence_169() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(10);
     s.delete(1);
     s.insert(20);
@@ -1458,9 +1649,8 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1070() {
+  public void testSequence_170() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(10);
     s.delete(1);
     s.insert(50);
@@ -1469,9 +1659,8 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1071() {
+  public void testSequence_171() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(10);
     s.delete(5);
     s.insert(1);
@@ -1480,9 +1669,8 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1072() {
+  public void testSequence_172() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(10);
     s.delete(5);
     s.insert(5);
@@ -1491,9 +1679,8 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1073() {
+  public void testSequence_173() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(10);
     s.delete(5);
     s.insert(10);
@@ -1502,9 +1689,8 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1074() {
+  public void testSequence_174() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(10);
     s.delete(5);
     s.insert(20);
@@ -1513,9 +1699,8 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1075() {
+  public void testSequence_175() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(10);
     s.delete(5);
     s.insert(50);
@@ -1524,9 +1709,8 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1076() {
+  public void testSequence_176() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(10);
     s.delete(9);
     s.insert(1);
@@ -1535,9 +1719,8 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1077() {
+  public void testSequence_177() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(10);
     s.delete(9);
     s.insert(5);
@@ -1546,9 +1729,8 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1078() {
+  public void testSequence_178() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(10);
     s.delete(9);
     s.insert(10);
@@ -1557,9 +1739,8 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1079() {
+  public void testSequence_179() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(10);
     s.delete(9);
     s.insert(20);
@@ -1568,9 +1749,8 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1080() {
+  public void testSequence_180() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(10);
     s.delete(9);
     s.insert(50);
@@ -1579,9 +1759,8 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1081() {
+  public void testSequence_181() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(20);
     s.insert(1);
     s.insert(1);
@@ -1590,9 +1769,8 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1082() {
+  public void testSequence_182() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(20);
     s.insert(1);
     s.insert(5);
@@ -1601,9 +1779,8 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1083() {
+  public void testSequence_183() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(20);
     s.insert(1);
     s.insert(10);
@@ -1612,9 +1789,8 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1084() {
+  public void testSequence_184() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(20);
     s.insert(1);
     s.insert(20);
@@ -1623,9 +1799,8 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1085() {
+  public void testSequence_185() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(20);
     s.insert(1);
     s.insert(50);
@@ -1634,9 +1809,8 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1086() {
+  public void testSequence_186() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(20);
     s.insert(2);
     s.insert(1);
@@ -1645,9 +1819,8 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1087() {
+  public void testSequence_187() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(20);
     s.insert(2);
     s.insert(5);
@@ -1656,9 +1829,8 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1088() {
+  public void testSequence_188() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(20);
     s.insert(2);
     s.insert(10);
@@ -1667,9 +1839,8 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1089() {
+  public void testSequence_189() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(20);
     s.insert(2);
     s.insert(20);
@@ -1678,9 +1849,8 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1090() {
+  public void testSequence_190() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(20);
     s.insert(2);
     s.insert(50);
@@ -1689,9 +1859,8 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1091() {
+  public void testSequence_191() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(20);
     s.insert(4);
     s.insert(1);
@@ -1700,9 +1869,8 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1092() {
+  public void testSequence_192() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(20);
     s.insert(4);
     s.insert(5);
@@ -1711,9 +1879,8 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1093() {
+  public void testSequence_193() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(20);
     s.insert(4);
     s.insert(10);
@@ -1722,9 +1889,8 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1094() {
+  public void testSequence_194() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(20);
     s.insert(4);
     s.insert(20);
@@ -1733,9 +1899,8 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1095() {
+  public void testSequence_195() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(20);
     s.insert(4);
     s.insert(50);
@@ -1744,9 +1909,8 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1096() {
+  public void testSequence_196() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(20);
     s.insert(6);
     s.insert(1);
@@ -1755,9 +1919,8 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1097() {
+  public void testSequence_197() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(20);
     s.insert(6);
     s.insert(5);
@@ -1766,9 +1929,8 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1098() {
+  public void testSequence_198() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(20);
     s.insert(6);
     s.insert(10);
@@ -1777,9 +1939,8 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1099() {
+  public void testSequence_199() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(20);
     s.insert(6);
     s.insert(20);
@@ -1788,9 +1949,8 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1100() {
+  public void testSequence_200() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(20);
     s.insert(6);
     s.insert(50);
@@ -1799,9 +1959,8 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1101() {
+  public void testSequence_201() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(20);
     s.insert(9);
     s.insert(1);
@@ -1810,9 +1969,8 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1102() {
+  public void testSequence_202() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(20);
     s.insert(9);
     s.insert(5);
@@ -1821,9 +1979,8 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1103() {
+  public void testSequence_203() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(20);
     s.insert(9);
     s.insert(10);
@@ -1832,9 +1989,8 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1104() {
+  public void testSequence_204() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(20);
     s.insert(9);
     s.insert(20);
@@ -1843,9 +1999,8 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1105() {
+  public void testSequence_205() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(20);
     s.insert(9);
     s.insert(50);
@@ -1854,9 +2009,8 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1106() {
+  public void testSequence_206() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(20);
     s.insert(10);
     s.insert(1);
@@ -1865,9 +2019,8 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1107() {
+  public void testSequence_207() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(20);
     s.insert(10);
     s.insert(5);
@@ -1876,9 +2029,8 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1108() {
+  public void testSequence_208() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(20);
     s.insert(10);
     s.insert(10);
@@ -1887,9 +2039,8 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1109() {
+  public void testSequence_209() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(20);
     s.insert(10);
     s.insert(20);
@@ -1898,9 +2049,8 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1110() {
+  public void testSequence_210() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(20);
     s.insert(10);
     s.insert(50);
@@ -1909,9 +2059,8 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1111() {
+  public void testSequence_211() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(20);
     s.delete(1);
     s.insert(1);
@@ -1920,9 +2069,8 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1112() {
+  public void testSequence_212() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(20);
     s.delete(1);
     s.insert(5);
@@ -1931,9 +2079,8 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1113() {
+  public void testSequence_213() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(20);
     s.delete(1);
     s.insert(10);
@@ -1942,9 +2089,8 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1114() {
+  public void testSequence_214() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(20);
     s.delete(1);
     s.insert(20);
@@ -1953,9 +2099,8 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1115() {
+  public void testSequence_215() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(20);
     s.delete(1);
     s.insert(50);
@@ -1964,9 +2109,8 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1116() {
+  public void testSequence_216() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(20);
     s.delete(5);
     s.insert(1);
@@ -1975,9 +2119,8 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1117() {
+  public void testSequence_217() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(20);
     s.delete(5);
     s.insert(5);
@@ -1986,9 +2129,8 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1118() {
+  public void testSequence_218() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(20);
     s.delete(5);
     s.insert(10);
@@ -1997,9 +2139,8 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1119() {
+  public void testSequence_219() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(20);
     s.delete(5);
     s.insert(20);
@@ -2008,9 +2149,8 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1120() {
+  public void testSequence_220() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(20);
     s.delete(5);
     s.insert(50);
@@ -2019,9 +2159,8 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1121() {
+  public void testSequence_221() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(20);
     s.delete(9);
     s.insert(1);
@@ -2030,9 +2169,8 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1122() {
+  public void testSequence_222() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(20);
     s.delete(9);
     s.insert(5);
@@ -2041,9 +2179,8 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1123() {
+  public void testSequence_223() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(20);
     s.delete(9);
     s.insert(10);
@@ -2052,9 +2189,8 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1124() {
+  public void testSequence_224() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(20);
     s.delete(9);
     s.insert(20);
@@ -2063,9 +2199,8 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1125() {
+  public void testSequence_225() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(20);
     s.delete(9);
     s.insert(50);
@@ -2074,9 +2209,8 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1126() {
+  public void testSequence_226() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(50);
     s.insert(1);
     s.insert(1);
@@ -2085,9 +2219,8 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1127() {
+  public void testSequence_227() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(50);
     s.insert(1);
     s.insert(5);
@@ -2096,9 +2229,8 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1128() {
+  public void testSequence_228() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(50);
     s.insert(1);
     s.insert(10);
@@ -2107,9 +2239,8 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1129() {
+  public void testSequence_229() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(50);
     s.insert(1);
     s.insert(20);
@@ -2118,9 +2249,8 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1130() {
+  public void testSequence_230() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(50);
     s.insert(1);
     s.insert(50);
@@ -2129,9 +2259,8 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1131() {
+  public void testSequence_231() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(50);
     s.insert(2);
     s.insert(1);
@@ -2140,9 +2269,8 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1132() {
+  public void testSequence_232() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(50);
     s.insert(2);
     s.insert(5);
@@ -2151,9 +2279,8 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1133() {
+  public void testSequence_233() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(50);
     s.insert(2);
     s.insert(10);
@@ -2162,9 +2289,8 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1134() {
+  public void testSequence_234() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(50);
     s.insert(2);
     s.insert(20);
@@ -2173,9 +2299,8 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1135() {
+  public void testSequence_235() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(50);
     s.insert(2);
     s.insert(50);
@@ -2184,9 +2309,8 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1136() {
+  public void testSequence_236() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(50);
     s.insert(4);
     s.insert(1);
@@ -2195,9 +2319,8 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1137() {
+  public void testSequence_237() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(50);
     s.insert(4);
     s.insert(5);
@@ -2206,9 +2329,8 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1138() {
+  public void testSequence_238() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(50);
     s.insert(4);
     s.insert(10);
@@ -2217,9 +2339,8 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1139() {
+  public void testSequence_239() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(50);
     s.insert(4);
     s.insert(20);
@@ -2228,9 +2349,8 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1140() {
+  public void testSequence_240() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(50);
     s.insert(4);
     s.insert(50);
@@ -2239,9 +2359,8 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1141() {
+  public void testSequence_241() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(50);
     s.insert(6);
     s.insert(1);
@@ -2250,9 +2369,8 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1142() {
+  public void testSequence_242() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(50);
     s.insert(6);
     s.insert(5);
@@ -2261,9 +2379,8 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1143() {
+  public void testSequence_243() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(50);
     s.insert(6);
     s.insert(10);
@@ -2272,9 +2389,8 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1144() {
+  public void testSequence_244() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(50);
     s.insert(6);
     s.insert(20);
@@ -2283,9 +2399,8 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1145() {
+  public void testSequence_245() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(50);
     s.insert(6);
     s.insert(50);
@@ -2294,9 +2409,8 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1146() {
+  public void testSequence_246() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(50);
     s.insert(9);
     s.insert(1);
@@ -2305,9 +2419,8 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1147() {
+  public void testSequence_247() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(50);
     s.insert(9);
     s.insert(5);
@@ -2316,9 +2429,8 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1148() {
+  public void testSequence_248() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(50);
     s.insert(9);
     s.insert(10);
@@ -2327,9 +2439,8 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1149() {
+  public void testSequence_249() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(50);
     s.insert(9);
     s.insert(20);
@@ -2338,9 +2449,8 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1150() {
+  public void testSequence_250() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(50);
     s.insert(9);
     s.insert(50);
@@ -2349,9 +2459,8 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1151() {
+  public void testSequence_251() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(50);
     s.insert(10);
     s.insert(1);
@@ -2360,9 +2469,8 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1152() {
+  public void testSequence_252() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(50);
     s.insert(10);
     s.insert(5);
@@ -2371,9 +2479,8 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1153() {
+  public void testSequence_253() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(50);
     s.insert(10);
     s.insert(10);
@@ -2382,9 +2489,8 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1154() {
+  public void testSequence_254() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(50);
     s.insert(10);
     s.insert(20);
@@ -2393,9 +2499,8 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1155() {
+  public void testSequence_255() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(50);
     s.insert(10);
     s.insert(50);
@@ -2404,9 +2509,8 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1156() {
+  public void testSequence_256() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(50);
     s.delete(1);
     s.insert(1);
@@ -2415,9 +2519,8 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1157() {
+  public void testSequence_257() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(50);
     s.delete(1);
     s.insert(5);
@@ -2426,9 +2529,8 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1158() {
+  public void testSequence_258() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(50);
     s.delete(1);
     s.insert(10);
@@ -2437,9 +2539,8 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1159() {
+  public void testSequence_259() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(50);
     s.delete(1);
     s.insert(20);
@@ -2448,9 +2549,8 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1160() {
+  public void testSequence_260() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(50);
     s.delete(1);
     s.insert(50);
@@ -2459,9 +2559,8 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1161() {
+  public void testSequence_261() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(50);
     s.delete(5);
     s.insert(1);
@@ -2470,9 +2569,8 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1162() {
+  public void testSequence_262() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(50);
     s.delete(5);
     s.insert(5);
@@ -2481,9 +2579,8 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1163() {
+  public void testSequence_263() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(50);
     s.delete(5);
     s.insert(10);
@@ -2492,9 +2589,8 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1164() {
+  public void testSequence_264() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(50);
     s.delete(5);
     s.insert(20);
@@ -2503,9 +2599,8 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1165() {
+  public void testSequence_265() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(50);
     s.delete(5);
     s.insert(50);
@@ -2514,9 +2609,8 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1166() {
+  public void testSequence_266() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(50);
     s.delete(9);
     s.insert(1);
@@ -2525,9 +2619,8 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1167() {
+  public void testSequence_267() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(50);
     s.delete(9);
     s.insert(5);
@@ -2536,9 +2629,8 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1168() {
+  public void testSequence_268() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(50);
     s.delete(9);
     s.insert(10);
@@ -2547,9 +2639,8 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1169() {
+  public void testSequence_269() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(50);
     s.delete(9);
     s.insert(20);
@@ -2558,9 +2649,8 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1170() {
+  public void testSequence_270() {
     SetAsTree s = new SetAsTree();
-    s.insert(20);
     s.insert(50);
     s.delete(9);
     s.insert(50);
@@ -2569,9 +2659,9 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1171() {
+  public void testSequence_271() {
     SetAsTree s = new SetAsTree();
-    s.insert(50);
+    s.insert(1);
     s.insert(1);
     s.insert(1);
     s.insert(1);
@@ -2580,9 +2670,9 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1172() {
+  public void testSequence_272() {
     SetAsTree s = new SetAsTree();
-    s.insert(50);
+    s.insert(1);
     s.insert(1);
     s.insert(1);
     s.insert(5);
@@ -2591,9 +2681,9 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1173() {
+  public void testSequence_273() {
     SetAsTree s = new SetAsTree();
-    s.insert(50);
+    s.insert(1);
     s.insert(1);
     s.insert(1);
     s.insert(10);
@@ -2602,9 +2692,9 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1174() {
+  public void testSequence_274() {
     SetAsTree s = new SetAsTree();
-    s.insert(50);
+    s.insert(1);
     s.insert(1);
     s.insert(1);
     s.insert(20);
@@ -2613,9 +2703,9 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1175() {
+  public void testSequence_275() {
     SetAsTree s = new SetAsTree();
-    s.insert(50);
+    s.insert(1);
     s.insert(1);
     s.insert(1);
     s.insert(50);
@@ -2624,9 +2714,9 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1176() {
+  public void testSequence_276() {
     SetAsTree s = new SetAsTree();
-    s.insert(50);
+    s.insert(1);
     s.insert(1);
     s.insert(2);
     s.insert(1);
@@ -2635,9 +2725,9 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1177() {
+  public void testSequence_277() {
     SetAsTree s = new SetAsTree();
-    s.insert(50);
+    s.insert(1);
     s.insert(1);
     s.insert(2);
     s.insert(5);
@@ -2646,9 +2736,9 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1178() {
+  public void testSequence_278() {
     SetAsTree s = new SetAsTree();
-    s.insert(50);
+    s.insert(1);
     s.insert(1);
     s.insert(2);
     s.insert(10);
@@ -2657,9 +2747,9 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1179() {
+  public void testSequence_279() {
     SetAsTree s = new SetAsTree();
-    s.insert(50);
+    s.insert(1);
     s.insert(1);
     s.insert(2);
     s.insert(20);
@@ -2668,9 +2758,9 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1180() {
+  public void testSequence_280() {
     SetAsTree s = new SetAsTree();
-    s.insert(50);
+    s.insert(1);
     s.insert(1);
     s.insert(2);
     s.insert(50);
@@ -2679,9 +2769,9 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1181() {
+  public void testSequence_281() {
     SetAsTree s = new SetAsTree();
-    s.insert(50);
+    s.insert(1);
     s.insert(1);
     s.insert(4);
     s.insert(1);
@@ -2690,9 +2780,9 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1182() {
+  public void testSequence_282() {
     SetAsTree s = new SetAsTree();
-    s.insert(50);
+    s.insert(1);
     s.insert(1);
     s.insert(4);
     s.insert(5);
@@ -2701,9 +2791,9 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1183() {
+  public void testSequence_283() {
     SetAsTree s = new SetAsTree();
-    s.insert(50);
+    s.insert(1);
     s.insert(1);
     s.insert(4);
     s.insert(10);
@@ -2712,9 +2802,9 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1184() {
+  public void testSequence_284() {
     SetAsTree s = new SetAsTree();
-    s.insert(50);
+    s.insert(1);
     s.insert(1);
     s.insert(4);
     s.insert(20);
@@ -2723,9 +2813,9 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1185() {
+  public void testSequence_285() {
     SetAsTree s = new SetAsTree();
-    s.insert(50);
+    s.insert(1);
     s.insert(1);
     s.insert(4);
     s.insert(50);
@@ -2734,9 +2824,9 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1186() {
+  public void testSequence_286() {
     SetAsTree s = new SetAsTree();
-    s.insert(50);
+    s.insert(1);
     s.insert(1);
     s.insert(6);
     s.insert(1);
@@ -2745,9 +2835,9 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1187() {
+  public void testSequence_287() {
     SetAsTree s = new SetAsTree();
-    s.insert(50);
+    s.insert(1);
     s.insert(1);
     s.insert(6);
     s.insert(5);
@@ -2756,9 +2846,9 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1188() {
+  public void testSequence_288() {
     SetAsTree s = new SetAsTree();
-    s.insert(50);
+    s.insert(1);
     s.insert(1);
     s.insert(6);
     s.insert(10);
@@ -2767,9 +2857,9 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1189() {
+  public void testSequence_289() {
     SetAsTree s = new SetAsTree();
-    s.insert(50);
+    s.insert(1);
     s.insert(1);
     s.insert(6);
     s.insert(20);
@@ -2778,9 +2868,9 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1190() {
+  public void testSequence_290() {
     SetAsTree s = new SetAsTree();
-    s.insert(50);
+    s.insert(1);
     s.insert(1);
     s.insert(6);
     s.insert(50);
@@ -2789,9 +2879,9 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1191() {
+  public void testSequence_291() {
     SetAsTree s = new SetAsTree();
-    s.insert(50);
+    s.insert(1);
     s.insert(1);
     s.insert(9);
     s.insert(1);
@@ -2800,9 +2890,9 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1192() {
+  public void testSequence_292() {
     SetAsTree s = new SetAsTree();
-    s.insert(50);
+    s.insert(1);
     s.insert(1);
     s.insert(9);
     s.insert(5);
@@ -2811,9 +2901,9 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1193() {
+  public void testSequence_293() {
     SetAsTree s = new SetAsTree();
-    s.insert(50);
+    s.insert(1);
     s.insert(1);
     s.insert(9);
     s.insert(10);
@@ -2822,9 +2912,9 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1194() {
+  public void testSequence_294() {
     SetAsTree s = new SetAsTree();
-    s.insert(50);
+    s.insert(1);
     s.insert(1);
     s.insert(9);
     s.insert(20);
@@ -2833,9 +2923,9 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1195() {
+  public void testSequence_295() {
     SetAsTree s = new SetAsTree();
-    s.insert(50);
+    s.insert(1);
     s.insert(1);
     s.insert(9);
     s.insert(50);
@@ -2844,9 +2934,9 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1196() {
+  public void testSequence_296() {
     SetAsTree s = new SetAsTree();
-    s.insert(50);
+    s.insert(1);
     s.insert(1);
     s.insert(10);
     s.insert(1);
@@ -2855,9 +2945,9 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1197() {
+  public void testSequence_297() {
     SetAsTree s = new SetAsTree();
-    s.insert(50);
+    s.insert(1);
     s.insert(1);
     s.insert(10);
     s.insert(5);
@@ -2866,9 +2956,9 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1198() {
+  public void testSequence_298() {
     SetAsTree s = new SetAsTree();
-    s.insert(50);
+    s.insert(1);
     s.insert(1);
     s.insert(10);
     s.insert(10);
@@ -2877,9 +2967,9 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1199() {
+  public void testSequence_299() {
     SetAsTree s = new SetAsTree();
-    s.insert(50);
+    s.insert(1);
     s.insert(1);
     s.insert(10);
     s.insert(20);
@@ -2888,9 +2978,9 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1200() {
+  public void testSequence_300() {
     SetAsTree s = new SetAsTree();
-    s.insert(50);
+    s.insert(1);
     s.insert(1);
     s.insert(10);
     s.insert(50);
@@ -2899,9 +2989,9 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1201() {
+  public void testSequence_301() {
     SetAsTree s = new SetAsTree();
-    s.insert(50);
+    s.insert(1);
     s.insert(1);
     s.delete(1);
     s.insert(1);
@@ -2910,9 +3000,9 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1202() {
+  public void testSequence_302() {
     SetAsTree s = new SetAsTree();
-    s.insert(50);
+    s.insert(1);
     s.insert(1);
     s.delete(1);
     s.insert(5);
@@ -2921,9 +3011,9 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1203() {
+  public void testSequence_303() {
     SetAsTree s = new SetAsTree();
-    s.insert(50);
+    s.insert(1);
     s.insert(1);
     s.delete(1);
     s.insert(10);
@@ -2932,9 +3022,9 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1204() {
+  public void testSequence_304() {
     SetAsTree s = new SetAsTree();
-    s.insert(50);
+    s.insert(1);
     s.insert(1);
     s.delete(1);
     s.insert(20);
@@ -2943,9 +3033,9 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1205() {
+  public void testSequence_305() {
     SetAsTree s = new SetAsTree();
-    s.insert(50);
+    s.insert(1);
     s.insert(1);
     s.delete(1);
     s.insert(50);
@@ -2954,9 +3044,9 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1206() {
+  public void testSequence_306() {
     SetAsTree s = new SetAsTree();
-    s.insert(50);
+    s.insert(1);
     s.insert(1);
     s.delete(5);
     s.insert(1);
@@ -2965,9 +3055,9 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1207() {
+  public void testSequence_307() {
     SetAsTree s = new SetAsTree();
-    s.insert(50);
+    s.insert(1);
     s.insert(1);
     s.delete(5);
     s.insert(5);
@@ -2976,9 +3066,9 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1208() {
+  public void testSequence_308() {
     SetAsTree s = new SetAsTree();
-    s.insert(50);
+    s.insert(1);
     s.insert(1);
     s.delete(5);
     s.insert(10);
@@ -2987,9 +3077,9 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1209() {
+  public void testSequence_309() {
     SetAsTree s = new SetAsTree();
-    s.insert(50);
+    s.insert(1);
     s.insert(1);
     s.delete(5);
     s.insert(20);
@@ -2998,9 +3088,9 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1210() {
+  public void testSequence_310() {
     SetAsTree s = new SetAsTree();
-    s.insert(50);
+    s.insert(1);
     s.insert(1);
     s.delete(5);
     s.insert(50);
@@ -3009,9 +3099,9 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1211() {
+  public void testSequence_311() {
     SetAsTree s = new SetAsTree();
-    s.insert(50);
+    s.insert(1);
     s.insert(1);
     s.delete(9);
     s.insert(1);
@@ -3020,9 +3110,9 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1212() {
+  public void testSequence_312() {
     SetAsTree s = new SetAsTree();
-    s.insert(50);
+    s.insert(1);
     s.insert(1);
     s.delete(9);
     s.insert(5);
@@ -3031,9 +3121,9 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1213() {
+  public void testSequence_313() {
     SetAsTree s = new SetAsTree();
-    s.insert(50);
+    s.insert(1);
     s.insert(1);
     s.delete(9);
     s.insert(10);
@@ -3042,9 +3132,9 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1214() {
+  public void testSequence_314() {
     SetAsTree s = new SetAsTree();
-    s.insert(50);
+    s.insert(1);
     s.insert(1);
     s.delete(9);
     s.insert(20);
@@ -3053,9 +3143,9 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1215() {
+  public void testSequence_315() {
     SetAsTree s = new SetAsTree();
-    s.insert(50);
+    s.insert(1);
     s.insert(1);
     s.delete(9);
     s.insert(50);
@@ -3064,9 +3154,9 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1216() {
+  public void testSequence_316() {
     SetAsTree s = new SetAsTree();
-    s.insert(50);
+    s.insert(1);
     s.insert(5);
     s.insert(1);
     s.insert(1);
@@ -3075,9 +3165,9 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1217() {
+  public void testSequence_317() {
     SetAsTree s = new SetAsTree();
-    s.insert(50);
+    s.insert(1);
     s.insert(5);
     s.insert(1);
     s.insert(5);
@@ -3086,9 +3176,9 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1218() {
+  public void testSequence_318() {
     SetAsTree s = new SetAsTree();
-    s.insert(50);
+    s.insert(1);
     s.insert(5);
     s.insert(1);
     s.insert(10);
@@ -3097,9 +3187,9 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1219() {
+  public void testSequence_319() {
     SetAsTree s = new SetAsTree();
-    s.insert(50);
+    s.insert(1);
     s.insert(5);
     s.insert(1);
     s.insert(20);
@@ -3108,9 +3198,9 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1220() {
+  public void testSequence_320() {
     SetAsTree s = new SetAsTree();
-    s.insert(50);
+    s.insert(1);
     s.insert(5);
     s.insert(1);
     s.insert(50);
@@ -3119,9 +3209,9 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1221() {
+  public void testSequence_321() {
     SetAsTree s = new SetAsTree();
-    s.insert(50);
+    s.insert(1);
     s.insert(5);
     s.insert(2);
     s.insert(1);
@@ -3130,9 +3220,9 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1222() {
+  public void testSequence_322() {
     SetAsTree s = new SetAsTree();
-    s.insert(50);
+    s.insert(1);
     s.insert(5);
     s.insert(2);
     s.insert(5);
@@ -3141,9 +3231,9 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1223() {
+  public void testSequence_323() {
     SetAsTree s = new SetAsTree();
-    s.insert(50);
+    s.insert(1);
     s.insert(5);
     s.insert(2);
     s.insert(10);
@@ -3152,9 +3242,9 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1224() {
+  public void testSequence_324() {
     SetAsTree s = new SetAsTree();
-    s.insert(50);
+    s.insert(1);
     s.insert(5);
     s.insert(2);
     s.insert(20);
@@ -3163,9 +3253,9 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1225() {
+  public void testSequence_325() {
     SetAsTree s = new SetAsTree();
-    s.insert(50);
+    s.insert(1);
     s.insert(5);
     s.insert(2);
     s.insert(50);
@@ -3174,9 +3264,9 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1226() {
+  public void testSequence_326() {
     SetAsTree s = new SetAsTree();
-    s.insert(50);
+    s.insert(1);
     s.insert(5);
     s.insert(4);
     s.insert(1);
@@ -3185,9 +3275,9 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1227() {
+  public void testSequence_327() {
     SetAsTree s = new SetAsTree();
-    s.insert(50);
+    s.insert(1);
     s.insert(5);
     s.insert(4);
     s.insert(5);
@@ -3196,9 +3286,9 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1228() {
+  public void testSequence_328() {
     SetAsTree s = new SetAsTree();
-    s.insert(50);
+    s.insert(1);
     s.insert(5);
     s.insert(4);
     s.insert(10);
@@ -3207,9 +3297,9 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1229() {
+  public void testSequence_329() {
     SetAsTree s = new SetAsTree();
-    s.insert(50);
+    s.insert(1);
     s.insert(5);
     s.insert(4);
     s.insert(20);
@@ -3218,9 +3308,9 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1230() {
+  public void testSequence_330() {
     SetAsTree s = new SetAsTree();
-    s.insert(50);
+    s.insert(1);
     s.insert(5);
     s.insert(4);
     s.insert(50);
@@ -3229,9 +3319,9 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1231() {
+  public void testSequence_331() {
     SetAsTree s = new SetAsTree();
-    s.insert(50);
+    s.insert(1);
     s.insert(5);
     s.insert(6);
     s.insert(1);
@@ -3240,9 +3330,9 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1232() {
+  public void testSequence_332() {
     SetAsTree s = new SetAsTree();
-    s.insert(50);
+    s.insert(1);
     s.insert(5);
     s.insert(6);
     s.insert(5);
@@ -3251,9 +3341,9 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1233() {
+  public void testSequence_333() {
     SetAsTree s = new SetAsTree();
-    s.insert(50);
+    s.insert(1);
     s.insert(5);
     s.insert(6);
     s.insert(10);
@@ -3262,9 +3352,9 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1234() {
+  public void testSequence_334() {
     SetAsTree s = new SetAsTree();
-    s.insert(50);
+    s.insert(1);
     s.insert(5);
     s.insert(6);
     s.insert(20);
@@ -3273,9 +3363,9 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1235() {
+  public void testSequence_335() {
     SetAsTree s = new SetAsTree();
-    s.insert(50);
+    s.insert(1);
     s.insert(5);
     s.insert(6);
     s.insert(50);
@@ -3284,9 +3374,9 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1236() {
+  public void testSequence_336() {
     SetAsTree s = new SetAsTree();
-    s.insert(50);
+    s.insert(1);
     s.insert(5);
     s.insert(9);
     s.insert(1);
@@ -3295,9 +3385,9 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1237() {
+  public void testSequence_337() {
     SetAsTree s = new SetAsTree();
-    s.insert(50);
+    s.insert(1);
     s.insert(5);
     s.insert(9);
     s.insert(5);
@@ -3306,9 +3396,9 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1238() {
+  public void testSequence_338() {
     SetAsTree s = new SetAsTree();
-    s.insert(50);
+    s.insert(1);
     s.insert(5);
     s.insert(9);
     s.insert(10);
@@ -3317,9 +3407,9 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1239() {
+  public void testSequence_339() {
     SetAsTree s = new SetAsTree();
-    s.insert(50);
+    s.insert(1);
     s.insert(5);
     s.insert(9);
     s.insert(20);
@@ -3328,9 +3418,9 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1240() {
+  public void testSequence_340() {
     SetAsTree s = new SetAsTree();
-    s.insert(50);
+    s.insert(1);
     s.insert(5);
     s.insert(9);
     s.insert(50);
@@ -3339,9 +3429,9 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1241() {
+  public void testSequence_341() {
     SetAsTree s = new SetAsTree();
-    s.insert(50);
+    s.insert(1);
     s.insert(5);
     s.insert(10);
     s.insert(1);
@@ -3350,9 +3440,9 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1242() {
+  public void testSequence_342() {
     SetAsTree s = new SetAsTree();
-    s.insert(50);
+    s.insert(1);
     s.insert(5);
     s.insert(10);
     s.insert(5);
@@ -3361,9 +3451,9 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1243() {
+  public void testSequence_343() {
     SetAsTree s = new SetAsTree();
-    s.insert(50);
+    s.insert(1);
     s.insert(5);
     s.insert(10);
     s.insert(10);
@@ -3372,9 +3462,9 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1244() {
+  public void testSequence_344() {
     SetAsTree s = new SetAsTree();
-    s.insert(50);
+    s.insert(1);
     s.insert(5);
     s.insert(10);
     s.insert(20);
@@ -3383,9 +3473,9 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1245() {
+  public void testSequence_345() {
     SetAsTree s = new SetAsTree();
-    s.insert(50);
+    s.insert(1);
     s.insert(5);
     s.insert(10);
     s.insert(50);
@@ -3394,9 +3484,9 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1246() {
+  public void testSequence_346() {
     SetAsTree s = new SetAsTree();
-    s.insert(50);
+    s.insert(1);
     s.insert(5);
     s.delete(1);
     s.insert(1);
@@ -3405,9 +3495,9 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1247() {
+  public void testSequence_347() {
     SetAsTree s = new SetAsTree();
-    s.insert(50);
+    s.insert(1);
     s.insert(5);
     s.delete(1);
     s.insert(5);
@@ -3416,9 +3506,9 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1248() {
+  public void testSequence_348() {
     SetAsTree s = new SetAsTree();
-    s.insert(50);
+    s.insert(1);
     s.insert(5);
     s.delete(1);
     s.insert(10);
@@ -3427,9 +3517,9 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1249() {
+  public void testSequence_349() {
     SetAsTree s = new SetAsTree();
-    s.insert(50);
+    s.insert(1);
     s.insert(5);
     s.delete(1);
     s.insert(20);
@@ -3438,9 +3528,9 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1250() {
+  public void testSequence_350() {
     SetAsTree s = new SetAsTree();
-    s.insert(50);
+    s.insert(1);
     s.insert(5);
     s.delete(1);
     s.insert(50);
@@ -3449,9 +3539,9 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1251() {
+  public void testSequence_351() {
     SetAsTree s = new SetAsTree();
-    s.insert(50);
+    s.insert(1);
     s.insert(5);
     s.delete(5);
     s.insert(1);
@@ -3460,9 +3550,9 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1252() {
+  public void testSequence_352() {
     SetAsTree s = new SetAsTree();
-    s.insert(50);
+    s.insert(1);
     s.insert(5);
     s.delete(5);
     s.insert(5);
@@ -3471,9 +3561,9 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1253() {
+  public void testSequence_353() {
     SetAsTree s = new SetAsTree();
-    s.insert(50);
+    s.insert(1);
     s.insert(5);
     s.delete(5);
     s.insert(10);
@@ -3482,9 +3572,9 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1254() {
+  public void testSequence_354() {
     SetAsTree s = new SetAsTree();
-    s.insert(50);
+    s.insert(1);
     s.insert(5);
     s.delete(5);
     s.insert(20);
@@ -3493,9 +3583,9 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1255() {
+  public void testSequence_355() {
     SetAsTree s = new SetAsTree();
-    s.insert(50);
+    s.insert(1);
     s.insert(5);
     s.delete(5);
     s.insert(50);
@@ -3504,9 +3594,9 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1256() {
+  public void testSequence_356() {
     SetAsTree s = new SetAsTree();
-    s.insert(50);
+    s.insert(1);
     s.insert(5);
     s.delete(9);
     s.insert(1);
@@ -3515,9 +3605,9 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1257() {
+  public void testSequence_357() {
     SetAsTree s = new SetAsTree();
-    s.insert(50);
+    s.insert(1);
     s.insert(5);
     s.delete(9);
     s.insert(5);
@@ -3526,9 +3616,9 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1258() {
+  public void testSequence_358() {
     SetAsTree s = new SetAsTree();
-    s.insert(50);
+    s.insert(1);
     s.insert(5);
     s.delete(9);
     s.insert(10);
@@ -3537,9 +3627,9 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1259() {
+  public void testSequence_359() {
     SetAsTree s = new SetAsTree();
-    s.insert(50);
+    s.insert(1);
     s.insert(5);
     s.delete(9);
     s.insert(20);
@@ -3548,9 +3638,9 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1260() {
+  public void testSequence_360() {
     SetAsTree s = new SetAsTree();
-    s.insert(50);
+    s.insert(1);
     s.insert(5);
     s.delete(9);
     s.insert(50);
@@ -3559,9 +3649,9 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1261() {
+  public void testSequence_361() {
     SetAsTree s = new SetAsTree();
-    s.insert(50);
+    s.insert(1);
     s.insert(10);
     s.insert(1);
     s.insert(1);
@@ -3570,9 +3660,9 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1262() {
+  public void testSequence_362() {
     SetAsTree s = new SetAsTree();
-    s.insert(50);
+    s.insert(1);
     s.insert(10);
     s.insert(1);
     s.insert(5);
@@ -3581,9 +3671,9 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1263() {
+  public void testSequence_363() {
     SetAsTree s = new SetAsTree();
-    s.insert(50);
+    s.insert(1);
     s.insert(10);
     s.insert(1);
     s.insert(10);
@@ -3592,9 +3682,9 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1264() {
+  public void testSequence_364() {
     SetAsTree s = new SetAsTree();
-    s.insert(50);
+    s.insert(1);
     s.insert(10);
     s.insert(1);
     s.insert(20);
@@ -3603,9 +3693,9 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1265() {
+  public void testSequence_365() {
     SetAsTree s = new SetAsTree();
-    s.insert(50);
+    s.insert(1);
     s.insert(10);
     s.insert(1);
     s.insert(50);
@@ -3614,9 +3704,9 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1266() {
+  public void testSequence_366() {
     SetAsTree s = new SetAsTree();
-    s.insert(50);
+    s.insert(1);
     s.insert(10);
     s.insert(2);
     s.insert(1);
@@ -3625,9 +3715,9 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1267() {
+  public void testSequence_367() {
     SetAsTree s = new SetAsTree();
-    s.insert(50);
+    s.insert(1);
     s.insert(10);
     s.insert(2);
     s.insert(5);
@@ -3636,9 +3726,9 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1268() {
+  public void testSequence_368() {
     SetAsTree s = new SetAsTree();
-    s.insert(50);
+    s.insert(1);
     s.insert(10);
     s.insert(2);
     s.insert(10);
@@ -3647,9 +3737,9 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1269() {
+  public void testSequence_369() {
     SetAsTree s = new SetAsTree();
-    s.insert(50);
+    s.insert(1);
     s.insert(10);
     s.insert(2);
     s.insert(20);
@@ -3658,9 +3748,9 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1270() {
+  public void testSequence_370() {
     SetAsTree s = new SetAsTree();
-    s.insert(50);
+    s.insert(1);
     s.insert(10);
     s.insert(2);
     s.insert(50);
@@ -3669,9 +3759,9 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1271() {
+  public void testSequence_371() {
     SetAsTree s = new SetAsTree();
-    s.insert(50);
+    s.insert(1);
     s.insert(10);
     s.insert(4);
     s.insert(1);
@@ -3680,9 +3770,9 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1272() {
+  public void testSequence_372() {
     SetAsTree s = new SetAsTree();
-    s.insert(50);
+    s.insert(1);
     s.insert(10);
     s.insert(4);
     s.insert(5);
@@ -3691,9 +3781,9 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1273() {
+  public void testSequence_373() {
     SetAsTree s = new SetAsTree();
-    s.insert(50);
+    s.insert(1);
     s.insert(10);
     s.insert(4);
     s.insert(10);
@@ -3702,9 +3792,9 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1274() {
+  public void testSequence_374() {
     SetAsTree s = new SetAsTree();
-    s.insert(50);
+    s.insert(1);
     s.insert(10);
     s.insert(4);
     s.insert(20);
@@ -3713,9 +3803,9 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1275() {
+  public void testSequence_375() {
     SetAsTree s = new SetAsTree();
-    s.insert(50);
+    s.insert(1);
     s.insert(10);
     s.insert(4);
     s.insert(50);
@@ -3724,9 +3814,9 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1276() {
+  public void testSequence_376() {
     SetAsTree s = new SetAsTree();
-    s.insert(50);
+    s.insert(1);
     s.insert(10);
     s.insert(6);
     s.insert(1);
@@ -3735,9 +3825,9 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1277() {
+  public void testSequence_377() {
     SetAsTree s = new SetAsTree();
-    s.insert(50);
+    s.insert(1);
     s.insert(10);
     s.insert(6);
     s.insert(5);
@@ -3746,9 +3836,9 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1278() {
+  public void testSequence_378() {
     SetAsTree s = new SetAsTree();
-    s.insert(50);
+    s.insert(1);
     s.insert(10);
     s.insert(6);
     s.insert(10);
@@ -3757,9 +3847,9 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1279() {
+  public void testSequence_379() {
     SetAsTree s = new SetAsTree();
-    s.insert(50);
+    s.insert(1);
     s.insert(10);
     s.insert(6);
     s.insert(20);
@@ -3768,9 +3858,9 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1280() {
+  public void testSequence_380() {
     SetAsTree s = new SetAsTree();
-    s.insert(50);
+    s.insert(1);
     s.insert(10);
     s.insert(6);
     s.insert(50);
@@ -3779,9 +3869,9 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1281() {
+  public void testSequence_381() {
     SetAsTree s = new SetAsTree();
-    s.insert(50);
+    s.insert(1);
     s.insert(10);
     s.insert(9);
     s.insert(1);
@@ -3790,9 +3880,9 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1282() {
+  public void testSequence_382() {
     SetAsTree s = new SetAsTree();
-    s.insert(50);
+    s.insert(1);
     s.insert(10);
     s.insert(9);
     s.insert(5);
@@ -3801,9 +3891,9 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1283() {
+  public void testSequence_383() {
     SetAsTree s = new SetAsTree();
-    s.insert(50);
+    s.insert(1);
     s.insert(10);
     s.insert(9);
     s.insert(10);
@@ -3812,9 +3902,9 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1284() {
+  public void testSequence_384() {
     SetAsTree s = new SetAsTree();
-    s.insert(50);
+    s.insert(1);
     s.insert(10);
     s.insert(9);
     s.insert(20);
@@ -3823,9 +3913,9 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1285() {
+  public void testSequence_385() {
     SetAsTree s = new SetAsTree();
-    s.insert(50);
+    s.insert(1);
     s.insert(10);
     s.insert(9);
     s.insert(50);
@@ -3834,9 +3924,9 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1286() {
+  public void testSequence_386() {
     SetAsTree s = new SetAsTree();
-    s.insert(50);
+    s.insert(1);
     s.insert(10);
     s.insert(10);
     s.insert(1);
@@ -3845,9 +3935,9 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1287() {
+  public void testSequence_387() {
     SetAsTree s = new SetAsTree();
-    s.insert(50);
+    s.insert(1);
     s.insert(10);
     s.insert(10);
     s.insert(5);
@@ -3856,9 +3946,9 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1288() {
+  public void testSequence_388() {
     SetAsTree s = new SetAsTree();
-    s.insert(50);
+    s.insert(1);
     s.insert(10);
     s.insert(10);
     s.insert(10);
@@ -3867,9 +3957,9 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1289() {
+  public void testSequence_389() {
     SetAsTree s = new SetAsTree();
-    s.insert(50);
+    s.insert(1);
     s.insert(10);
     s.insert(10);
     s.insert(20);
@@ -3878,9 +3968,9 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1290() {
+  public void testSequence_390() {
     SetAsTree s = new SetAsTree();
-    s.insert(50);
+    s.insert(1);
     s.insert(10);
     s.insert(10);
     s.insert(50);
@@ -3889,9 +3979,9 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1291() {
+  public void testSequence_391() {
     SetAsTree s = new SetAsTree();
-    s.insert(50);
+    s.insert(1);
     s.insert(10);
     s.delete(1);
     s.insert(1);
@@ -3900,9 +3990,9 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1292() {
+  public void testSequence_392() {
     SetAsTree s = new SetAsTree();
-    s.insert(50);
+    s.insert(1);
     s.insert(10);
     s.delete(1);
     s.insert(5);
@@ -3911,9 +4001,9 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1293() {
+  public void testSequence_393() {
     SetAsTree s = new SetAsTree();
-    s.insert(50);
+    s.insert(1);
     s.insert(10);
     s.delete(1);
     s.insert(10);
@@ -3922,9 +4012,9 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1294() {
+  public void testSequence_394() {
     SetAsTree s = new SetAsTree();
-    s.insert(50);
+    s.insert(1);
     s.insert(10);
     s.delete(1);
     s.insert(20);
@@ -3933,9 +4023,9 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1295() {
+  public void testSequence_395() {
     SetAsTree s = new SetAsTree();
-    s.insert(50);
+    s.insert(1);
     s.insert(10);
     s.delete(1);
     s.insert(50);
@@ -3944,9 +4034,9 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1296() {
+  public void testSequence_396() {
     SetAsTree s = new SetAsTree();
-    s.insert(50);
+    s.insert(1);
     s.insert(10);
     s.delete(5);
     s.insert(1);
@@ -3955,9 +4045,9 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1297() {
+  public void testSequence_397() {
     SetAsTree s = new SetAsTree();
-    s.insert(50);
+    s.insert(1);
     s.insert(10);
     s.delete(5);
     s.insert(5);
@@ -3966,9 +4056,9 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1298() {
+  public void testSequence_398() {
     SetAsTree s = new SetAsTree();
-    s.insert(50);
+    s.insert(1);
     s.insert(10);
     s.delete(5);
     s.insert(10);
@@ -3977,9 +4067,9 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1299() {
+  public void testSequence_399() {
     SetAsTree s = new SetAsTree();
-    s.insert(50);
+    s.insert(1);
     s.insert(10);
     s.delete(5);
     s.insert(20);
@@ -3988,9 +4078,9 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1300() {
+  public void testSequence_400() {
     SetAsTree s = new SetAsTree();
-    s.insert(50);
+    s.insert(1);
     s.insert(10);
     s.delete(5);
     s.insert(50);
@@ -3999,9 +4089,9 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1301() {
+  public void testSequence_401() {
     SetAsTree s = new SetAsTree();
-    s.insert(50);
+    s.insert(1);
     s.insert(10);
     s.delete(9);
     s.insert(1);
@@ -4010,9 +4100,9 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1302() {
+  public void testSequence_402() {
     SetAsTree s = new SetAsTree();
-    s.insert(50);
+    s.insert(1);
     s.insert(10);
     s.delete(9);
     s.insert(5);
@@ -4021,9 +4111,9 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1303() {
+  public void testSequence_403() {
     SetAsTree s = new SetAsTree();
-    s.insert(50);
+    s.insert(1);
     s.insert(10);
     s.delete(9);
     s.insert(10);
@@ -4032,9 +4122,9 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1304() {
+  public void testSequence_404() {
     SetAsTree s = new SetAsTree();
-    s.insert(50);
+    s.insert(1);
     s.insert(10);
     s.delete(9);
     s.insert(20);
@@ -4043,9 +4133,9 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1305() {
+  public void testSequence_405() {
     SetAsTree s = new SetAsTree();
-    s.insert(50);
+    s.insert(1);
     s.insert(10);
     s.delete(9);
     s.insert(50);
@@ -4054,9 +4144,9 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1306() {
+  public void testSequence_406() {
     SetAsTree s = new SetAsTree();
-    s.insert(50);
+    s.insert(1);
     s.insert(20);
     s.insert(1);
     s.insert(1);
@@ -4065,9 +4155,9 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1307() {
+  public void testSequence_407() {
     SetAsTree s = new SetAsTree();
-    s.insert(50);
+    s.insert(1);
     s.insert(20);
     s.insert(1);
     s.insert(5);
@@ -4076,9 +4166,9 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1308() {
+  public void testSequence_408() {
     SetAsTree s = new SetAsTree();
-    s.insert(50);
+    s.insert(1);
     s.insert(20);
     s.insert(1);
     s.insert(10);
@@ -4087,9 +4177,9 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1309() {
+  public void testSequence_409() {
     SetAsTree s = new SetAsTree();
-    s.insert(50);
+    s.insert(1);
     s.insert(20);
     s.insert(1);
     s.insert(20);
@@ -4098,9 +4188,9 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1310() {
+  public void testSequence_410() {
     SetAsTree s = new SetAsTree();
-    s.insert(50);
+    s.insert(1);
     s.insert(20);
     s.insert(1);
     s.insert(50);
@@ -4109,9 +4199,9 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1311() {
+  public void testSequence_411() {
     SetAsTree s = new SetAsTree();
-    s.insert(50);
+    s.insert(1);
     s.insert(20);
     s.insert(2);
     s.insert(1);
@@ -4120,9 +4210,9 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1312() {
+  public void testSequence_412() {
     SetAsTree s = new SetAsTree();
-    s.insert(50);
+    s.insert(1);
     s.insert(20);
     s.insert(2);
     s.insert(5);
@@ -4131,9 +4221,9 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1313() {
+  public void testSequence_413() {
     SetAsTree s = new SetAsTree();
-    s.insert(50);
+    s.insert(1);
     s.insert(20);
     s.insert(2);
     s.insert(10);
@@ -4142,9 +4232,9 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1314() {
+  public void testSequence_414() {
     SetAsTree s = new SetAsTree();
-    s.insert(50);
+    s.insert(1);
     s.insert(20);
     s.insert(2);
     s.insert(20);
@@ -4153,9 +4243,9 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1315() {
+  public void testSequence_415() {
     SetAsTree s = new SetAsTree();
-    s.insert(50);
+    s.insert(1);
     s.insert(20);
     s.insert(2);
     s.insert(50);
@@ -4164,9 +4254,9 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1316() {
+  public void testSequence_416() {
     SetAsTree s = new SetAsTree();
-    s.insert(50);
+    s.insert(1);
     s.insert(20);
     s.insert(4);
     s.insert(1);
@@ -4175,9 +4265,9 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1317() {
+  public void testSequence_417() {
     SetAsTree s = new SetAsTree();
-    s.insert(50);
+    s.insert(1);
     s.insert(20);
     s.insert(4);
     s.insert(5);
@@ -4186,9 +4276,9 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1318() {
+  public void testSequence_418() {
     SetAsTree s = new SetAsTree();
-    s.insert(50);
+    s.insert(1);
     s.insert(20);
     s.insert(4);
     s.insert(10);
@@ -4197,9 +4287,9 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1319() {
+  public void testSequence_419() {
     SetAsTree s = new SetAsTree();
-    s.insert(50);
+    s.insert(1);
     s.insert(20);
     s.insert(4);
     s.insert(20);
@@ -4208,9 +4298,9 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1320() {
+  public void testSequence_420() {
     SetAsTree s = new SetAsTree();
-    s.insert(50);
+    s.insert(1);
     s.insert(20);
     s.insert(4);
     s.insert(50);
@@ -4219,9 +4309,9 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1321() {
+  public void testSequence_421() {
     SetAsTree s = new SetAsTree();
-    s.insert(50);
+    s.insert(1);
     s.insert(20);
     s.insert(6);
     s.insert(1);
@@ -4230,9 +4320,9 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1322() {
+  public void testSequence_422() {
     SetAsTree s = new SetAsTree();
-    s.insert(50);
+    s.insert(1);
     s.insert(20);
     s.insert(6);
     s.insert(5);
@@ -4241,9 +4331,9 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1323() {
+  public void testSequence_423() {
     SetAsTree s = new SetAsTree();
-    s.insert(50);
+    s.insert(1);
     s.insert(20);
     s.insert(6);
     s.insert(10);
@@ -4252,9 +4342,9 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1324() {
+  public void testSequence_424() {
     SetAsTree s = new SetAsTree();
-    s.insert(50);
+    s.insert(1);
     s.insert(20);
     s.insert(6);
     s.insert(20);
@@ -4263,9 +4353,9 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1325() {
+  public void testSequence_425() {
     SetAsTree s = new SetAsTree();
-    s.insert(50);
+    s.insert(1);
     s.insert(20);
     s.insert(6);
     s.insert(50);
@@ -4274,9 +4364,9 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1326() {
+  public void testSequence_426() {
     SetAsTree s = new SetAsTree();
-    s.insert(50);
+    s.insert(1);
     s.insert(20);
     s.insert(9);
     s.insert(1);
@@ -4285,9 +4375,9 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1327() {
+  public void testSequence_427() {
     SetAsTree s = new SetAsTree();
-    s.insert(50);
+    s.insert(1);
     s.insert(20);
     s.insert(9);
     s.insert(5);
@@ -4296,9 +4386,9 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1328() {
+  public void testSequence_428() {
     SetAsTree s = new SetAsTree();
-    s.insert(50);
+    s.insert(1);
     s.insert(20);
     s.insert(9);
     s.insert(10);
@@ -4307,9 +4397,9 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1329() {
+  public void testSequence_429() {
     SetAsTree s = new SetAsTree();
-    s.insert(50);
+    s.insert(1);
     s.insert(20);
     s.insert(9);
     s.insert(20);
@@ -4318,9 +4408,9 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1330() {
+  public void testSequence_430() {
     SetAsTree s = new SetAsTree();
-    s.insert(50);
+    s.insert(1);
     s.insert(20);
     s.insert(9);
     s.insert(50);
@@ -4329,9 +4419,9 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1331() {
+  public void testSequence_431() {
     SetAsTree s = new SetAsTree();
-    s.insert(50);
+    s.insert(1);
     s.insert(20);
     s.insert(10);
     s.insert(1);
@@ -4340,9 +4430,9 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1332() {
+  public void testSequence_432() {
     SetAsTree s = new SetAsTree();
-    s.insert(50);
+    s.insert(1);
     s.insert(20);
     s.insert(10);
     s.insert(5);
@@ -4351,9 +4441,9 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1333() {
+  public void testSequence_433() {
     SetAsTree s = new SetAsTree();
-    s.insert(50);
+    s.insert(1);
     s.insert(20);
     s.insert(10);
     s.insert(10);
@@ -4362,9 +4452,9 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1334() {
+  public void testSequence_434() {
     SetAsTree s = new SetAsTree();
-    s.insert(50);
+    s.insert(1);
     s.insert(20);
     s.insert(10);
     s.insert(20);
@@ -4373,9 +4463,9 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1335() {
+  public void testSequence_435() {
     SetAsTree s = new SetAsTree();
-    s.insert(50);
+    s.insert(1);
     s.insert(20);
     s.insert(10);
     s.insert(50);
@@ -4384,9 +4474,9 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1336() {
+  public void testSequence_436() {
     SetAsTree s = new SetAsTree();
-    s.insert(50);
+    s.insert(1);
     s.insert(20);
     s.delete(1);
     s.insert(1);
@@ -4395,9 +4485,9 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1337() {
+  public void testSequence_437() {
     SetAsTree s = new SetAsTree();
-    s.insert(50);
+    s.insert(1);
     s.insert(20);
     s.delete(1);
     s.insert(5);
@@ -4406,9 +4496,9 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1338() {
+  public void testSequence_438() {
     SetAsTree s = new SetAsTree();
-    s.insert(50);
+    s.insert(1);
     s.insert(20);
     s.delete(1);
     s.insert(10);
@@ -4417,9 +4507,9 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1339() {
+  public void testSequence_439() {
     SetAsTree s = new SetAsTree();
-    s.insert(50);
+    s.insert(1);
     s.insert(20);
     s.delete(1);
     s.insert(20);
@@ -4428,9 +4518,9 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1340() {
+  public void testSequence_440() {
     SetAsTree s = new SetAsTree();
-    s.insert(50);
+    s.insert(1);
     s.insert(20);
     s.delete(1);
     s.insert(50);
@@ -4439,9 +4529,9 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1341() {
+  public void testSequence_441() {
     SetAsTree s = new SetAsTree();
-    s.insert(50);
+    s.insert(1);
     s.insert(20);
     s.delete(5);
     s.insert(1);
@@ -4450,9 +4540,9 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1342() {
+  public void testSequence_442() {
     SetAsTree s = new SetAsTree();
-    s.insert(50);
+    s.insert(1);
     s.insert(20);
     s.delete(5);
     s.insert(5);
@@ -4461,9 +4551,9 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1343() {
+  public void testSequence_443() {
     SetAsTree s = new SetAsTree();
-    s.insert(50);
+    s.insert(1);
     s.insert(20);
     s.delete(5);
     s.insert(10);
@@ -4472,9 +4562,9 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1344() {
+  public void testSequence_444() {
     SetAsTree s = new SetAsTree();
-    s.insert(50);
+    s.insert(1);
     s.insert(20);
     s.delete(5);
     s.insert(20);
@@ -4483,9 +4573,9 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1345() {
+  public void testSequence_445() {
     SetAsTree s = new SetAsTree();
-    s.insert(50);
+    s.insert(1);
     s.insert(20);
     s.delete(5);
     s.insert(50);
@@ -4494,9 +4584,9 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1346() {
+  public void testSequence_446() {
     SetAsTree s = new SetAsTree();
-    s.insert(50);
+    s.insert(1);
     s.insert(20);
     s.delete(9);
     s.insert(1);
@@ -4505,9 +4595,9 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1347() {
+  public void testSequence_447() {
     SetAsTree s = new SetAsTree();
-    s.insert(50);
+    s.insert(1);
     s.insert(20);
     s.delete(9);
     s.insert(5);
@@ -4516,9 +4606,9 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1348() {
+  public void testSequence_448() {
     SetAsTree s = new SetAsTree();
-    s.insert(50);
+    s.insert(1);
     s.insert(20);
     s.delete(9);
     s.insert(10);
@@ -4527,9 +4617,9 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1349() {
+  public void testSequence_449() {
     SetAsTree s = new SetAsTree();
-    s.insert(50);
+    s.insert(1);
     s.insert(20);
     s.delete(9);
     s.insert(20);
@@ -4538,9 +4628,9 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1350() {
+  public void testSequence_450() {
     SetAsTree s = new SetAsTree();
-    s.insert(50);
+    s.insert(1);
     s.insert(20);
     s.delete(9);
     s.insert(50);
@@ -4549,9 +4639,9 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1351() {
+  public void testSequence_451() {
     SetAsTree s = new SetAsTree();
-    s.insert(50);
+    s.insert(1);
     s.insert(50);
     s.insert(1);
     s.insert(1);
@@ -4560,9 +4650,9 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1352() {
+  public void testSequence_452() {
     SetAsTree s = new SetAsTree();
-    s.insert(50);
+    s.insert(1);
     s.insert(50);
     s.insert(1);
     s.insert(5);
@@ -4571,9 +4661,9 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1353() {
+  public void testSequence_453() {
     SetAsTree s = new SetAsTree();
-    s.insert(50);
+    s.insert(1);
     s.insert(50);
     s.insert(1);
     s.insert(10);
@@ -4582,9 +4672,9 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1354() {
+  public void testSequence_454() {
     SetAsTree s = new SetAsTree();
-    s.insert(50);
+    s.insert(1);
     s.insert(50);
     s.insert(1);
     s.insert(20);
@@ -4593,9 +4683,9 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1355() {
+  public void testSequence_455() {
     SetAsTree s = new SetAsTree();
-    s.insert(50);
+    s.insert(1);
     s.insert(50);
     s.insert(1);
     s.insert(50);
@@ -4604,9 +4694,9 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1356() {
+  public void testSequence_456() {
     SetAsTree s = new SetAsTree();
-    s.insert(50);
+    s.insert(1);
     s.insert(50);
     s.insert(2);
     s.insert(1);
@@ -4615,9 +4705,9 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1357() {
+  public void testSequence_457() {
     SetAsTree s = new SetAsTree();
-    s.insert(50);
+    s.insert(1);
     s.insert(50);
     s.insert(2);
     s.insert(5);
@@ -4626,9 +4716,9 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1358() {
+  public void testSequence_458() {
     SetAsTree s = new SetAsTree();
-    s.insert(50);
+    s.insert(1);
     s.insert(50);
     s.insert(2);
     s.insert(10);
@@ -4637,9 +4727,9 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1359() {
+  public void testSequence_459() {
     SetAsTree s = new SetAsTree();
-    s.insert(50);
+    s.insert(1);
     s.insert(50);
     s.insert(2);
     s.insert(20);
@@ -4648,9 +4738,9 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1360() {
+  public void testSequence_460() {
     SetAsTree s = new SetAsTree();
-    s.insert(50);
+    s.insert(1);
     s.insert(50);
     s.insert(2);
     s.insert(50);
@@ -4659,9 +4749,9 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1361() {
+  public void testSequence_461() {
     SetAsTree s = new SetAsTree();
-    s.insert(50);
+    s.insert(1);
     s.insert(50);
     s.insert(4);
     s.insert(1);
@@ -4670,9 +4760,9 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1362() {
+  public void testSequence_462() {
     SetAsTree s = new SetAsTree();
-    s.insert(50);
+    s.insert(1);
     s.insert(50);
     s.insert(4);
     s.insert(5);
@@ -4681,9 +4771,9 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1363() {
+  public void testSequence_463() {
     SetAsTree s = new SetAsTree();
-    s.insert(50);
+    s.insert(1);
     s.insert(50);
     s.insert(4);
     s.insert(10);
@@ -4692,9 +4782,9 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1364() {
+  public void testSequence_464() {
     SetAsTree s = new SetAsTree();
-    s.insert(50);
+    s.insert(1);
     s.insert(50);
     s.insert(4);
     s.insert(20);
@@ -4703,9 +4793,9 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1365() {
+  public void testSequence_465() {
     SetAsTree s = new SetAsTree();
-    s.insert(50);
+    s.insert(1);
     s.insert(50);
     s.insert(4);
     s.insert(50);
@@ -4714,9 +4804,9 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1366() {
+  public void testSequence_466() {
     SetAsTree s = new SetAsTree();
-    s.insert(50);
+    s.insert(1);
     s.insert(50);
     s.insert(6);
     s.insert(1);
@@ -4725,9 +4815,9 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1367() {
+  public void testSequence_467() {
     SetAsTree s = new SetAsTree();
-    s.insert(50);
+    s.insert(1);
     s.insert(50);
     s.insert(6);
     s.insert(5);
@@ -4736,9 +4826,9 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1368() {
+  public void testSequence_468() {
     SetAsTree s = new SetAsTree();
-    s.insert(50);
+    s.insert(1);
     s.insert(50);
     s.insert(6);
     s.insert(10);
@@ -4747,9 +4837,9 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1369() {
+  public void testSequence_469() {
     SetAsTree s = new SetAsTree();
-    s.insert(50);
+    s.insert(1);
     s.insert(50);
     s.insert(6);
     s.insert(20);
@@ -4758,9 +4848,9 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1370() {
+  public void testSequence_470() {
     SetAsTree s = new SetAsTree();
-    s.insert(50);
+    s.insert(1);
     s.insert(50);
     s.insert(6);
     s.insert(50);
@@ -4769,9 +4859,9 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1371() {
+  public void testSequence_471() {
     SetAsTree s = new SetAsTree();
-    s.insert(50);
+    s.insert(1);
     s.insert(50);
     s.insert(9);
     s.insert(1);
@@ -4780,9 +4870,9 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1372() {
+  public void testSequence_472() {
     SetAsTree s = new SetAsTree();
-    s.insert(50);
+    s.insert(1);
     s.insert(50);
     s.insert(9);
     s.insert(5);
@@ -4791,9 +4881,9 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1373() {
+  public void testSequence_473() {
     SetAsTree s = new SetAsTree();
-    s.insert(50);
+    s.insert(1);
     s.insert(50);
     s.insert(9);
     s.insert(10);
@@ -4802,9 +4892,9 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1374() {
+  public void testSequence_474() {
     SetAsTree s = new SetAsTree();
-    s.insert(50);
+    s.insert(1);
     s.insert(50);
     s.insert(9);
     s.insert(20);
@@ -4813,9 +4903,9 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1375() {
+  public void testSequence_475() {
     SetAsTree s = new SetAsTree();
-    s.insert(50);
+    s.insert(1);
     s.insert(50);
     s.insert(9);
     s.insert(50);
@@ -4824,9 +4914,9 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1376() {
+  public void testSequence_476() {
     SetAsTree s = new SetAsTree();
-    s.insert(50);
+    s.insert(1);
     s.insert(50);
     s.insert(10);
     s.insert(1);
@@ -4835,9 +4925,9 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1377() {
+  public void testSequence_477() {
     SetAsTree s = new SetAsTree();
-    s.insert(50);
+    s.insert(1);
     s.insert(50);
     s.insert(10);
     s.insert(5);
@@ -4846,9 +4936,9 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1378() {
+  public void testSequence_478() {
     SetAsTree s = new SetAsTree();
-    s.insert(50);
+    s.insert(1);
     s.insert(50);
     s.insert(10);
     s.insert(10);
@@ -4857,9 +4947,9 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1379() {
+  public void testSequence_479() {
     SetAsTree s = new SetAsTree();
-    s.insert(50);
+    s.insert(1);
     s.insert(50);
     s.insert(10);
     s.insert(20);
@@ -4868,9 +4958,9 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1380() {
+  public void testSequence_480() {
     SetAsTree s = new SetAsTree();
-    s.insert(50);
+    s.insert(1);
     s.insert(50);
     s.insert(10);
     s.insert(50);
@@ -4879,9 +4969,9 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1381() {
+  public void testSequence_481() {
     SetAsTree s = new SetAsTree();
-    s.insert(50);
+    s.insert(1);
     s.insert(50);
     s.delete(1);
     s.insert(1);
@@ -4890,155 +4980,23 @@ public class A1Test2 {
   }
 
   @Test
-  public void testSequence_1382() {
+  public void testSequence_482() {
     SetAsTree s = new SetAsTree();
-    s.insert(50);
-    s.insert(50);
-    s.delete(1);
-    s.insert(5);
-
-
-  }
-
-  @Test
-  public void testSequence_1383() {
-    SetAsTree s = new SetAsTree();
-    s.insert(50);
-    s.insert(50);
-    s.delete(1);
-    s.insert(10);
-
-
-  }
-
-  @Test
-  public void testSequence_1384() {
-    SetAsTree s = new SetAsTree();
-    s.insert(50);
-    s.insert(50);
-    s.delete(1);
-    s.insert(20);
-
-
-  }
-
-  @Test
-  public void testSequence_1385() {
-    SetAsTree s = new SetAsTree();
-    s.insert(50);
-    s.insert(50);
-    s.delete(1);
-    s.insert(50);
-
-
-  }
-
-  @Test
-  public void testSequence_1386() {
-    SetAsTree s = new SetAsTree();
-    s.insert(50);
-    s.insert(50);
-    s.delete(5);
     s.insert(1);
-
-
-  }
-
-  @Test
-  public void testSequence_1387() {
-    SetAsTree s = new SetAsTree();
     s.insert(50);
-    s.insert(50);
-    s.delete(5);
+    s.delete(1);
     s.insert(5);
 
 
   }
 
   @Test
-  public void testSequence_1388() {
+  public void testSequence_483() {
     SetAsTree s = new SetAsTree();
-    s.insert(50);
-    s.insert(50);
-    s.delete(5);
-    s.insert(10);
-
-
-  }
-
-  @Test
-  public void testSequence_1389() {
-    SetAsTree s = new SetAsTree();
-    s.insert(50);
-    s.insert(50);
-    s.delete(5);
-    s.insert(20);
-
-
-  }
-
-  @Test
-  public void testSequence_1390() {
-    SetAsTree s = new SetAsTree();
-    s.insert(50);
-    s.insert(50);
-    s.delete(5);
-    s.insert(50);
-
-
-  }
-
-  @Test
-  public void testSequence_1391() {
-    SetAsTree s = new SetAsTree();
-    s.insert(50);
-    s.insert(50);
-    s.delete(9);
     s.insert(1);
-
-
-  }
-
-  @Test
-  public void testSequence_1392() {
-    SetAsTree s = new SetAsTree();
     s.insert(50);
-    s.insert(50);
-    s.delete(9);
-    s.insert(5);
-
-
-  }
-
-  @Test
-  public void testSequence_1393() {
-    SetAsTree s = new SetAsTree();
-    s.insert(50);
-    s.insert(50);
-    s.delete(9);
+    s.delete(1);
     s.insert(10);
-
-
-  }
-
-  @Test
-  public void testSequence_1394() {
-    SetAsTree s = new SetAsTree();
-    s.insert(50);
-    s.insert(50);
-    s.delete(9);
-    s.insert(20);
-
-
-  }
-
-  @Test
-  public void testSequence_1395() {
-    SetAsTree s = new SetAsTree();
-    s.insert(50);
-    s.insert(50);
-    s.delete(9);
-    s.insert(50);
 
 
   }

@@ -1,8 +1,8 @@
-package SetAsTree;
+package lab2;
 
 import static org.junit.Assert.assertThrows;
 
-import edu.lsbf.SetAsTree.SetAsTree;
+import edu.lsbf.lab2.SetAsTree;
 import org.jmlspecs.runtime.JmlAssertionError;
 import org.junit.AfterClass;
 import org.junit.Assert;

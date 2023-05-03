@@ -1,6 +1,4 @@
-package edu.lsbf.prime;
-
-import java.math.BigInteger;
+package edu.lsbf.lab4;
 
 public class Prime {
   private /*@ spec_public @*/ int p;
