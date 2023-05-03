@@ -9,7 +9,6 @@ public class SetAsTree {
   //@ public invariant notNull();
   //@ public invariant ((ltree == null) || (!ltree.emptySet() && ( ltree.max() < val )));
   //@ public invariant ((rtree == null) || (!rtree.emptySet() && ( rtree.min() > val )));
-  //@ public invariant isBalanced();
   //@ public invariant (* no cycle in the tree *);
 
   // Constructor
@@ -65,11 +64,12 @@ public class SetAsTree {
   // Application specific methods
 
   //@ ensures contains(v);
+  //@ ensures isBalanced();
   public void insert(int v) {
-    this.insertImpl(v);
+    insertImpl(v);
   }
 
-  private void insertImpl(int v) {
+  void insertImpl(int v) {
     if (val == null) {
       val = v;
     } else if (v > val) {
@@ -89,20 +89,23 @@ public class SetAsTree {
   }
 
   //@ ensures !contains(v);
+  //@ ensures isBalanced();
   public void delete(int v) {
-    this.deleteImpl(v);
+    deleteImpl(v);
   }
 
-  public void deleteImpl(int v) {
+  void deleteImpl(int v) {
     if (val == null) {
       return;
     } else if (v > val) {
       if (rtree != null) {
         rtree.deleteImpl(v);
+        if (rtree.val == null) rtree = null;
       }
     } else if (v < val) {
       if (ltree != null) {
         ltree.deleteImpl(v);
+        if (ltree.val == null) ltree = null;
       }
     } else {
       if (ltree == null && rtree == null) {
@@ -118,6 +121,7 @@ public class SetAsTree {
       } else {
         val = rtree.min();
         rtree.deleteImpl(val);
+        if (rtree.val == null) rtree = null;
       }
     }
     rebalance();
