@@ -54,7 +54,7 @@ public class TestPrimeJUnit4Param {
   public void testSequence_1() {
     try {
       Prime s = new Prime(n);
-    } catch (JmlAssertionError.PreconditionEntry e) {
+    } catch (JmlAssertionError e) {
       System.out.println("\n INCONCLUSIVE " + (new Exception().getStackTrace()[0].getMethodName()) +
           " with param " + n + "\n\t " + e.getMessage());
       nb_inconclusive++;

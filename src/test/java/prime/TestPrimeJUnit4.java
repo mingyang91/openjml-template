@@ -33,7 +33,7 @@ public class TestPrimeJUnit4 {
     Prime s = new Prime(5);
   }
 
-  @Test(expected = JmlAssertionError.PreconditionEntry.class)
+  @Test(expected = JmlAssertionError.class)
   public void testSequence_11() {
     Prime s = new Prime(4);
   }

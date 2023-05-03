@@ -120,11 +120,13 @@ public class SetAsTree {
 
   // Pure functions used in the specification
   //@ pure
+  //@ helper
   public boolean emptySet() {
     return val == null;
   }
 
   //@ pure
+  //@ helper
   public int min() {
     if (ltree != null && ltree.getVal() < val) {
       return ltree.min();
@@ -134,6 +136,7 @@ public class SetAsTree {
   }
 
   //@ pure
+  //@ helper
   public int max() {
     if (rtree != null && rtree.getVal() > val) {
       return rtree.max();
