@@ -9,16 +9,29 @@ public class PrimeArray {
   /*@ public invariant // Premier invariant
     @ (* Les size premiers elements sont ranges en ordre croissant *);
     @*/
-  //@ public invariant (\forall int j; 0 <= j && j < l.length - 1; l[j].p >= l[j + 1].p);
+  //@ public invariant size < 2 || (\forall int j; 0 <= j && j < size - 1; l[j].p < l[j + 1].p);
   /*@ public invariant // Deuxi�me invariant
     @ (* Les entiers compris entre deux elements consecutifs, 
     @ parmi les size premiers elements, ne sont pas premiers *);
+    @*/
+  /*@ public invariant size < 2 ||
+        (\forall int j; 0 <= j && j < size - 1;
+          (\forall int k; l[j].p < k && k < l[j + 1].p;
+            !Prime.is_prime(k)));
     @*/
 
   /*@ ensures size == 0; @*/
   public PrimeArray() {
     l = new Prime[100];
     size = 0;
+  }
+  
+  public PrimeArray(int[] init) {
+    l = new Prime[100];
+    size = init.length;
+    for (var i = 0; i < size; i++) {
+      l[i] = new Prime(init[i]);
+    }
   }
 
   /*@ ensures \old(size)+1 == size; @*/

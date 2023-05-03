@@ -15,8 +15,7 @@ public class Prime {
   }
 
   //@ ensures \result == true <==> (n > 1 ) && (\forall int d; 2<= d && d<= n-1; n % d != 0);
-  //@ pure
-  //@ helper
+  /*@ pure helper @*/
   public static boolean is_prime(int n) {
     // Miller - Rabin primality test
     if (n <= 1 || n == 4) {
@@ -80,14 +79,14 @@ public class Prime {
   }
 
 
-  //@ ensures (* A COMPLETER *);
+  //@ ensures \result == p;
   //@ pure
   public int get_p() {
     return p;
   }
 
-  //@ requires (* A COMPLETER *);
-  //@ ensures (* A COMPLETER *);
+  //@ requires x > 1;
+  //@ ensures x == p;
   public void set_p(int x) {
     p = x;
   }
