@@ -5,6 +5,9 @@ import org.jmlspecs.runtime.JmlAssertionError;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertTrue;
+
 
 public class TestPrimeJUnit4 {
 
@@ -30,12 +33,12 @@ public class TestPrimeJUnit4 {
 
   @Test
   public void testSequence_2() {
-    boolean b = Prime.is_prime(300000913);
+    assertTrue(Prime.is_prime(3175553));
   }
 
   @Test
   public void testSequence_3() {
-    boolean b = Prime.is_prime(300000915);
+    assertFalse(Prime.is_prime(3175555));
   }
   @Test
   public void testSequence_10() {
