@@ -9,7 +9,7 @@ public class SetAsTree {
   //@ public invariant notNull();
   //@ public invariant ((ltree == null) || (!ltree.emptySet() && ( ltree.max() < val )));
   //@ public invariant ((rtree == null) || (!rtree.emptySet() && ( rtree.min() > val )));
-  //@ public invariant balanceFactor() < 2 && balanceFactor() > -2;
+  //@ public invariant isBalanced();
   //@ public invariant (* no cycle in the tree *);
 
   // Constructor
@@ -34,7 +34,6 @@ public class SetAsTree {
   //@ pure
   //@ helper
   public boolean notNull() {
-    System.out.println("val: " + val + " ltree: " + ltree + " rtree: " + rtree);
     return ((val != null) || (ltree == null && rtree == null));
   }
 
@@ -67,11 +66,91 @@ public class SetAsTree {
 
   //@ ensures contains(v);
   public void insert(int v) {
+    this.insertImpl(v);
+  }
+
+  private void insertImpl(int v) {
+    if (val == null) {
+      val = v;
+    } else if (v > val) {
+      if (rtree == null) {
+        rtree = new SetAsTree(v);
+      } else {
+        rtree.insertImpl(v);
+      }
+    } else if (v < val) {
+      if (ltree == null) {
+        ltree = new SetAsTree(v);
+      } else {
+        ltree.insertImpl(v);
+      }
+    }
+    rebalance();
   }
 
   //@ ensures !contains(v);
   public void delete(int v) {
+    this.deleteImpl(v);
   }
+
+  public void deleteImpl(int v) {
+    if (val == null) {
+      return;
+    } else if (v > val) {
+      if (rtree != null) {
+        rtree.deleteImpl(v);
+      }
+    } else if (v < val) {
+      if (ltree != null) {
+        ltree.deleteImpl(v);
+      }
+    } else {
+      if (ltree == null && rtree == null) {
+        val = null;
+      } else if (ltree == null) {
+        val = rtree.getVal();
+        ltree = rtree.getLtree();
+        rtree = rtree.getRtree();
+      } else if (rtree == null) {
+        val = ltree.getVal();
+        rtree = ltree.getRtree();
+        ltree = ltree.getLtree();
+      } else {
+        val = rtree.min();
+        rtree.deleteImpl(val);
+      }
+    }
+    rebalance();
+  }
+
+  private void rebalance() {
+    if (balanceFactor() > 1) {
+      if (rtree.balanceFactor() < 0) {
+        rtree.rotateRight();
+      }
+      rotateLeft();
+    } else if (balanceFactor() < -1) {
+      if (ltree.balanceFactor() > 0) {
+        ltree.rotateLeft();
+      }
+      rotateRight();
+    }
+  }
+
+  private void rotateLeft() {
+    final var newRoot = new SetAsTree(val, ltree, rtree.getLtree());
+    val = rtree.getVal();
+    rtree = rtree.getRtree();
+    ltree = newRoot;
+  }
+
+  private void rotateRight() {
+    final var newRoot = new SetAsTree(val, ltree.getRtree(), rtree);
+    val = ltree.getVal();
+    ltree = ltree.getLtree();
+    rtree = newRoot;
+  }
+
 
   //@ pure
   protected int getHeight() {
@@ -85,7 +164,14 @@ public class SetAsTree {
   public int balanceFactor() {
     final var lh = ltree == null ? 0 : ltree.getHeight();
     final var rh = rtree == null ? 0 : rtree.getHeight();
-    return Math.abs(lh - rh);
+    return rh - lh;
+  }
+
+  //@ pure
+  //@ helper
+  public boolean isBalanced() {
+    final var isBalanced = Math.abs(balanceFactor()) < 2;
+    return isBalanced;
   }
 
   // Pure functions used in the specification

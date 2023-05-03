@@ -477,7 +477,6 @@ public class A1Test1 {
     s.insert(2);
     s.insert(5);
 
-
   }
 
   @Test
@@ -966,7 +965,6 @@ public class A1Test1 {
     s.insert(5);
     s.insert(4);
     s.insert(1);
-
 
   }
 
