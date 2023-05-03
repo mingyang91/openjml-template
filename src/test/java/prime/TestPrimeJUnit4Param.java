@@ -3,6 +3,9 @@ package prime;
 import edu.lsbf.prime.Prime;
 import java.util.Arrays;
 import java.util.Collection;
+import java.util.Random;
+import java.util.stream.IntStream;
+
 import org.jmlspecs.runtime.JmlAssertionError;
 import org.junit.AfterClass;
 import org.junit.BeforeClass;
@@ -21,11 +24,12 @@ public class TestPrimeJUnit4Param {
   public int n;
 
   @Parameters(name = "{index}: n={0}")
-  public static Collection<Object[]> params() {
-    return Arrays.asList(
-        new Object[] {7},
-        new Object[] {8}
-    );
+  public static Collection<Integer> params() {
+    Random rand = new Random();
+    return IntStream.range(0, 10)
+            .map((i) -> rand.nextInt())
+            .boxed()
+            .toList();
   }
 
   public static void main(String[] args) {
