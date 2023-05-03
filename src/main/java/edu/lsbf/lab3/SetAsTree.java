@@ -32,7 +32,8 @@ public class SetAsTree {
 
   //@ pure
   //@ helper
-  public boolean notNull() {
+  //@ spec_public
+  private boolean notNull() {
     return ((val != null) || (ltree == null && rtree == null));
   }
 
@@ -85,7 +86,7 @@ public class SetAsTree {
         ltree.insertImpl(v);
       }
     }
-    rebalance();
+    rebalanced();
   }
 
   //@ ensures !contains(v);
@@ -124,10 +125,10 @@ public class SetAsTree {
         if (rtree.val == null) rtree = null;
       }
     }
-    rebalance();
+    rebalanced();
   }
 
-  private void rebalance() {
+  private void rebalanced() {
     if (balanceFactor() > 1) {
       if (rtree.balanceFactor() < 0) {
         rtree.rotateRight();

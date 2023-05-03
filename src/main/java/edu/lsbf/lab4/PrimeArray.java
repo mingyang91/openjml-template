@@ -25,7 +25,10 @@ public class PrimeArray {
     l = new Prime[100];
     size = 0;
   }
-  
+
+  //@ requires (\forall int i; 0 <= i && i < init.length; Prime.is_prime(init[i]));
+  //@ requires init.length <= 100;
+  //@ ensures size == init.length;
   public PrimeArray(int[] init) {
     l = new Prime[100];
     size = init.length;

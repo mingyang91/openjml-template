@@ -8,7 +8,7 @@ public class Prime {
     p = 3;
   }
 
-  //@ requires x > 1;
+  //@ requires is_prime(x);
   //@ ensures p == x;
   public Prime(int x) {
     p = x;
@@ -39,9 +39,11 @@ public class Prime {
     return true;
   }
 
+  //@ pure
   private static boolean miller_rabin_test(int d, int n) {
     final var a = 2 + (int) (Math.random() % (n - 4));
     var x = mod_exp(a, d, n);
+    //@ assert x <= Integer.MAX_VALUE;
 
     if (x == 1 || x == n - 1) {
       return true;
@@ -62,9 +64,13 @@ public class Prime {
     return false;
   }
 
+  //@ requires 0 <= a && a <= Integer.MAX_VALUE;
+  //@ requires n > 0;
+  //@ pure
   private static long mod_exp(long a, long d, long n) {
     var res = 1L;
     a = a % n;
+    //@ assume 0 <= a && a <= Integer.MAX_VALUE;
 
     while (d > 0) {
       if (d % 2 == 1) {

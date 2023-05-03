@@ -46,21 +46,23 @@ java {
 }
 
 tasks.withType<JavaCompile>().configureEach {
+    val mode = when (System.getenv("JML_MODE")) {
+        "esc" -> "esc"
+        else -> "rac"
+    }
     if (name == "compileJava") {
         options.isFork = true
         options.compilerArgs.addAll(listOf(
                 "-jml",
-                "--rac"
+                "--$mode",
+                "--timeout 10"
         ))
         options.forkOptions.javaHome = File("$openjml_path/jdk")
     }
 }
 
 tasks.register("downloadOpenJML", ::downloadOpenJML)
-tasks.register("esc", JavaCompile::class.java) {
 
-}
-tasks.register("rac", JavaCompile::class.java) {}
 
 fun downloadOpenJML(action: Task) {
     val currentOS = OperatingSystem.current()
