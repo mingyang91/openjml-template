@@ -1,4 +1,6 @@
-class ExplosivesMain{
+package edu.lsbf.lab7;
+
+class ExplosivesMain {
 
     public static void main(String[] args) {
        Explosives e = new Explosives();

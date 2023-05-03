@@ -44,22 +44,19 @@ public class SetAsTreeFailingTest {
 
   @Test
   public void testSequence_1() {
-    assertThrows(JmlAssertionError.class, () -> {
-      SetAsTree s5 = new SetAsTree(5);
-      SetAsTree s1 = new SetAsTree(1);
-      s5.setRtree(s1);
-    });
+    SetAsTree s5 = new SetAsTree(5);
+    SetAsTree s1 = new SetAsTree(1);
+    s5.setRtree(s1);
+    s5.skip();
   }
 
 
-  @Test
+  @Test(expected = JmlAssertionError.class)
   public void testSequence_2() {
-    assertThrows(JmlAssertionError.class, () -> {
-      SetAsTree s5 = new SetAsTree(5);
-      SetAsTree s0 = new SetAsTree(0);
-      s5.setLtree(s0);
-      s5.setVal(null);
-    });
+    SetAsTree s5 = new SetAsTree(5);
+    SetAsTree s0 = new SetAsTree(0);
+    s5.setLtree(s0);
+    s5.setVal(null);
   }
 
 }

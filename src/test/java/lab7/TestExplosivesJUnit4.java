@@ -1,5 +1,9 @@
+package lab7;
+
 import static org.junit.Assert.*;
 
+import edu.lsbf.lab7.Explosives;
+import org.jmlspecs.runtime.JmlAssertionError;
 import org.junit.AfterClass;
 import org.junit.BeforeClass;
 import org.junit.Test;
@@ -18,8 +22,8 @@ public class TestExplosivesJUnit4 {
      }
 
 
-    private void handleJMLAssertionError(org.jmlspecs.jmlrac.runtime.JMLAssertionError e) {
-    	if (e.getClass().equals(org.jmlspecs.jmlrac.runtime.JMLEntryPreconditionError.class)) {
+    private void handleJMLAssertionError(JmlAssertionError e) {
+    	if (e.getClass().equals(JmlAssertionError.PreconditionEntry.class)) {
     	    System.out.println("\n INCONCLUSIVE "+(new Exception().getStackTrace()[0].getMethodName())+ "\n\t "+ e.getMessage());
             nb_inc++;}
     else{
@@ -51,7 +55,7 @@ public class TestExplosivesJUnit4 {
 			e.add_assign("Bat_1","Prod_Nitro");
 			e.add_assign("Bat_2","Prod_Mite");
 			e.add_assign("Bat_1","Prod_Glycerine");
-		} 	catch(org.jmlspecs.jmlrac.runtime.JMLAssertionError e){
+		} 	catch(JmlAssertionError e){
 				handleJMLAssertionError(e);		
 		}  
 	}

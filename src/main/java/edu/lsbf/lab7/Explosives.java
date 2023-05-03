@@ -1,6 +1,6 @@
-// Based on a B specification from Marie-Laure Potet.
+package edu.lsbf.lab7;// Based on a B specification from Marie-Laure Potet.
 
-public class Explosives{
+public class Explosives {
     public int nb_inc = 0;
     public String [][] incomp = new String[50][2];
     public int nb_assign = 0;

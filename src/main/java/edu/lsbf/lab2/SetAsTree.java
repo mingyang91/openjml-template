@@ -52,6 +52,7 @@ public class SetAsTree {
   }
 
   public void setRtree(SetAsTree rtree) {
+    //@ halt;
     this.rtree = rtree;
   }
 
@@ -158,5 +159,6 @@ public class SetAsTree {
     return s;
   }
 
-  public void skip() {} // useful to test the invariant.
+  public void skip() {
+  } // useful to test the invariant.
 }
