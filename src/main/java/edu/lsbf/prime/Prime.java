@@ -1,5 +1,7 @@
 package edu.lsbf.prime;
 
+import java.math.BigInteger;
+
 public class Prime {
   private /*@ spec_public @*/ int p;
   //@ public invariant is_prime(p);
@@ -62,22 +64,21 @@ public class Prime {
     return false;
   }
 
-  private static int mod_exp(int a, int d, int n) {
-    var res = 1;
+  private static long mod_exp(long a, long d, long n) {
+    var res = 1L;
     a = a % n;
 
     while (d > 0) {
       if (d % 2 == 1) {
-        res = (res * a) % n;
+        res = res * a % n;
       }
 
-      d /= 2;
-      a = (a * a) % n;
+      d = d / 2;
+      a = a * a % n;
     }
 
     return res;
   }
-
 
   //@ ensures \result == p;
   //@ pure

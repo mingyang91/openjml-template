@@ -29,6 +29,15 @@ public class TestPrimeJUnit4 {
   }
 
   @Test
+  public void testSequence_2() {
+    boolean b = Prime.is_prime(300000913);
+  }
+
+  @Test
+  public void testSequence_3() {
+    boolean b = Prime.is_prime(300000915);
+  }
+  @Test
   public void testSequence_10() {
     Prime s = new Prime(5);
   }
