@@ -29,8 +29,7 @@ public class TestExplosivesJUnit4 {
     else{
 	    // test failure	
 	    nb_fail++;
-	    junit.framework.Assert.fail("\n\t" + e.getMessage());	
-		}  
+		}
     }
 	
     
@@ -45,7 +44,7 @@ public class TestExplosivesJUnit4 {
 	     System.out.println("\n inconclusive tests: "+nb_inc+" -- failures : "+nb_fail );
 	}
 
-	@Test
+	@Test(expected = JmlAssertionError.class)
 	public void  testSequence_0() {
 		try{
 			e=new Explosives();
@@ -56,9 +55,92 @@ public class TestExplosivesJUnit4 {
 			e.add_assign("Bat_2","Prod_Mite");
 			e.add_assign("Bat_1","Prod_Glycerine");
 		} 	catch(JmlAssertionError e){
-				handleJMLAssertionError(e);		
+				handleJMLAssertionError(e);
+				throw e;
 		}  
 	}
 
+	@Test(expected = JmlAssertionError.class)
+	public void testProp_1() {
+		try{
+			e=new Explosives();
+			e.nb_inc = -1;
+			e.skip();
+		} 	catch(JmlAssertionError e){
+				handleJMLAssertionError(e);
+				throw e;
+		}
+	}
 
+	@Test(expected = JmlAssertionError.class)
+	public void testProp_2() {
+		try{
+			e=new Explosives();
+			e.nb_assign = -1;
+			e.skip();
+		} 	catch(JmlAssertionError e){
+			handleJMLAssertionError(e);
+			throw e;
+		}
+	}
+
+	@Test(expected = JmlAssertionError.class)
+	public void testProp_3() {
+		try{
+			e=new Explosives();
+			e.add_incomp("User_1","User_2");
+		} 	catch(JmlAssertionError e){
+			handleJMLAssertionError(e);
+			throw e;
+		}
+	}
+
+	@Test(expected = JmlAssertionError.class)
+	public void testProp_4() {
+		try{
+			e=new Explosives();
+			e.add_assign("User_1","User_2");
+		} 	catch(JmlAssertionError e){
+			handleJMLAssertionError(e);
+			throw e;
+		}
+	}
+
+	@Test(expected = JmlAssertionError.class)
+	public void testProp_5() {
+		try{
+			e=new Explosives();
+			e.add_incomp("Prod_1","Prod_1");
+		} 	catch(JmlAssertionError e){
+			handleJMLAssertionError(e);
+			throw e;
+		}
+	}
+
+	@Test(expected = JmlAssertionError.class)
+	public void testProp_6() {
+		try{
+			e=new Explosives();
+			e.incomp[0][0] = "Prod_1";
+			e.incomp[0][1] = "Prod_1";
+			e.nb_inc = 1;
+			e.skip();
+		} 	catch(JmlAssertionError e){
+			handleJMLAssertionError(e);
+			throw e;
+		}
+	}
+
+	@Test(expected = JmlAssertionError.class)
+	public void testProp_7() {
+		try{
+			e=new Explosives();
+			e.add_incomp("Prod_1","Prod_2");
+			e.add_assign("Bat_1","Prod_1");
+			e.add_assign("Bat_1","Prod_2");
+		} 	catch(JmlAssertionError e){
+			handleJMLAssertionError(e);
+			throw e;
+		}
+	}
 }

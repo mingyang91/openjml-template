@@ -52,7 +52,6 @@ public class SetAsTree {
   }
 
   public void setRtree(SetAsTree rtree) {
-    //@ halt;
     this.rtree = rtree;
   }
 

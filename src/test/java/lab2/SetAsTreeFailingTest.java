@@ -42,7 +42,7 @@ public class SetAsTreeFailingTest {
     System.out.println("\n inconclusive tests: " + nb_inc + " -- failures : " + nb_fail);
   }
 
-  @Test
+  @Test(expected = JmlAssertionError.class)
   public void testSequence_1() {
     SetAsTree s5 = new SetAsTree(5);
     SetAsTree s1 = new SetAsTree(1);
@@ -59,4 +59,11 @@ public class SetAsTreeFailingTest {
     s5.setVal(null);
   }
 
+  @Test(expected = JmlAssertionError.class)
+  public void testSequence_3() {
+    SetAsTree s1 = new SetAsTree(1);
+    SetAsTree s0 = new SetAsTree(0);
+    s1.setLtree(s0);
+    s1.setVal(null);
+  }
 }

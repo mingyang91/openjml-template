@@ -17,6 +17,18 @@ public class Prime {
   //@ ensures \result == true <==> (n > 1 ) && (\forall int d; 2<= d && d<= n-1; n % d != 0);
   /*@ pure helper @*/
   public static boolean is_prime(int n) {
+    if (n <= 1 || n == 4) return false;
+    if (n <= 3) return true;
+    if (n % 2 == 0) return false;
+    for (int d = 3; d <= Math.sqrt(n); d += 2) {
+      if (n % d == 0) return false;
+    }
+    return true;
+  }
+
+  //@ ensures \result == true <==> (n > 1 ) && (\forall int d; 2<= d && d<= n-1; n % d != 0);
+  /*@ pure helper @*/
+  public static boolean is_prime_prob(int n) {
     // Miller - Rabin primality test
     if (n <= 1 || n == 4) {
       return false;
@@ -90,7 +102,7 @@ public class Prime {
     return p;
   }
 
-  //@ requires x > 1;
+  //@ requires is_prime(x);
   //@ ensures x == p;
   public void set_p(int x) {
     p = x;

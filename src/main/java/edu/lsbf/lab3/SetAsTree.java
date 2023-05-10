@@ -175,8 +175,7 @@ public class SetAsTree {
   //@ pure
   //@ helper
   public boolean isBalanced() {
-    final var isBalanced = Math.abs(balanceFactor()) < 2;
-    return isBalanced;
+    return Math.abs(balanceFactor()) < 2;
   }
 
   // Pure functions used in the specification

@@ -26,10 +26,10 @@ public class TestPrimeJUnit4Param {
   @Parameters(name = "{index}: n={0}")
   public static Collection<Integer> params() {
     Random rand = new Random();
-    return IntStream.range(0, 10)
-            .map((i) -> rand.nextInt())
-            .boxed()
-            .toList();
+    return IntStream.concat(
+            IntStream.range(-100, 100),
+            IntStream.range(0, 10).map((i) -> rand.nextInt(1000000))
+    ).boxed().toList();
   }
 
   public static void main(String[] args) {

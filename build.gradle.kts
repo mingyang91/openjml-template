@@ -55,7 +55,8 @@ tasks.withType<JavaCompile>().configureEach {
         options.compilerArgs.addAll(listOf(
                 "-jml",
                 "--$mode",
-                "--timeout 10"
+                "--timeout",
+                "30"
         ))
         options.forkOptions.javaHome = File("$openjml_path/jdk")
     }
