@@ -38,9 +38,10 @@ public class Hashtable {
     // If the size has reached capacity, add will throw an FullHashtableException, and the state does not change. In addition:
     // - Write assignable clauses where appropriate.
     // - Add JML modifiers where necessary.
+    // TODO: there has a bug in OpenJML compiler, I can't put h[*] in assignable clause
     //@ public normal_behavior
     //@   requires size < capacity;
-    //@   assignable h[*], size;
+    //@   assignable h, size;
     //@   ensures size == \old(size) + 1;
     //@   ensures (\exists int i; 0 <= i && i < capacity; h[i] == obj);
     //@ also public exceptional_behavior
